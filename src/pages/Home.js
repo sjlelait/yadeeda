@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = (props) => {
     return (
-        <h1>Home Page</h1>
+        <h1>Music and Videos by Alain Le Lait</h1>
     )
 }
 
