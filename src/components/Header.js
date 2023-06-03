@@ -29,23 +29,23 @@ const Header = (props) => {
                 </div>
                 <Popover.Group className="hidden lg:flex lg:gap-x-18">
                     <Popover className="relative">
-                        <Link to="/" className="text-md font-semibold leading-6 text-gray-900">
+                        <Link to="/" className="text-md font-semibold mr-6 leading-6 text-gray-900">
                             <span className="sr-only">Home</span>
                             Home
                         </Link>
-                        <Link to="/music" className="text-md font-semibold leading-6 text-gray-900">
+                        <Link to="/music" className="text-md font-semibold mr-6 leading-6 text-gray-900">
                             <span className="sr-only">Music & Videos</span>
                             Music & Videos
                         </Link>
-                        <Link to="/about" className="text-md font-semibold leading-6 text-gray-900">
+                        <Link to="/about" className="text-md font-semibold mr-6 leading-6 text-gray-900">
                             <span className="sr-only">About Us</span>
                             About Us
                         </Link>
-                        <Link to="/links" className="text-md font-semibold leading-6 text-gray-900">
+                        <Link to="/links" className="text-md font-semibold mr-6 leading-6 text-gray-900">
                             <span className="sr-only">Links We Like</span>
                             Links We Like
                         </Link>
-                        <Link to="/contact" className="text-md font-semibold leading-6 text-gray-900">
+                        <Link to="/contact" className="text-md font-semibold mr-6 leading-6 text-gray-900">
                             <span className="sr-only">Contact Us</span>
                             Contact Us
                         </Link>                    
