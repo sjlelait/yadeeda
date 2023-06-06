@@ -8,7 +8,7 @@ import Reviews from '../pages/Reviews';
 
 function Main(props) {
     return (
-        <main className='background'>
+        <main className='main'>
             <Routes>
                 <Route path='/' element={<Home /> } />
                 <Route path='/music' element={<Music />} />

@@ -10,8 +10,8 @@ function App() {
     <Router>
       <div className='App'>
         <Header />
-        <Main />
         <YoutubeButton />
+        <Main />
         <Footer/>
       </div>
     </Router>
