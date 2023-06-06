@@ -10,7 +10,7 @@ function Main(props) {
     return (
         <main className='background'>
             <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/' element={<Home /> } />
                 <Route path='/music' element={<Music />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/links' element={<Links />} />
