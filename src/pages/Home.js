@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../components/HomeCard';
+import HomeCard from '../components/HomeCard';
 
 const Home = (props) => {
     const cardData = [
@@ -29,7 +29,7 @@ const Home = (props) => {
     return (
         <div className="flex">
             {cardData.map((card, index) => (
-                <Card 
+                <HomeCard 
                     key={index} 
                     title={card.title} 
                     image={card.image} 
