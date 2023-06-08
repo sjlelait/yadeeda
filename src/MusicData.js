@@ -2322,32 +2322,465 @@ export const songs = [
         id: 41,
         image: '',
         titleE: '',
-        titleF: ``,
-        album: ``,
-        french: ``,
-        english: ``,
-        copyright: '© 2003 Alain Le Lait',
+        titleF: `Où As-tu Mis Les Spaghettis?`,
+        album: `Parapluie`,
+        french: `Où as-tu mis les spaghettis?
+        Ils ne sont pas dans le placard
+        J'ai trouvé les macaronis, oui mais
+        Je ne trouve pas les spaghettis
+        
+        Je veux manger des spaghettis
+        Avec de la sauce tomate
+        Et de la saucisse epicée, oui et
+        Un peu de fromage râpé
+        
+        Non, je ne veux pas de raviolis
+        Ou de rigatonis
+        J'ai trés faim et aujourd'hui je veux
+        Manger mon plat préféré
+        
+        Où as-tu mis les spaghettis?
+        J'ai cherché dans tous les tirroirs 
+        J'ai trouvé les macaronis, oui mais
+        Je ne trouve pas les spaghettis
+        
+        Je veux manger des spaghettis
+        Avec de la sauce tomate
+        Et de la saucisse epicée, oui et
+        Un peu de fromage râpé
+        
+        Non, je ne veux pas de raviolis
+        Ou de rigatonis
+        J'ai trés faim et aujourd'hui je veux
+        Manger mon plat préféré
+        
+        Où as-tu mis les spaghettis?
+        Ils ne sont pas dans le placard
+        J'ai trouvé les macaronis, oui mais
+        Je ne trouve pas les spaghettis
+        
+        Je ne trouve pas les spaghettis
+        Où sont passés les spaghettis?`,
+        english: `Where did you put the spaghettis?
+        They are not in the cupboard
+        I found the macaronis, yes but
+        I can't find the spaghettis
+        
+        I want to eat spaghettis
+        With tomato sauce
+        And spicy sausage, yes and
+        Some grated cheese
+        
+        No, I don't want ravioli
+        Or rigatonis
+        I am very hungry and today
+        I want to eat my favorite dish
+        
+        Where did you put the spaghettis?
+        I have looked in all the drawers
+        I found the macaronis, yes but
+        I can't find the spaghettis
+        
+        I want to eat spaghettis
+        With tomato sauce
+        And spicy sausage, yes and
+        Some grated cheese
+        
+        No, I don't want ravioli
+        Or rigatonis
+        I am very hungry and today
+        I want to eat my favorite dish
+        
+        Where did you put the spaghettis?
+        They are not in the cupboard
+        I found the macaronis, yes but
+        I can't find the spaghettis
+        
+        I can't find the spaghettis
+        Where did the spaghettis go?`,
+        copyright: '© 2006 Alain Le Lait',
         link: '',
     },
     {
         id: 42,
         image: '',
-        titleE: '',
-        titleF: ``,
-        album: ``,
-        french: ``,
-        english: ``,
-        copyright: '© 2003 Alain Le Lait',
+        titleE: 'Umbrella',
+        titleF: `Parapluie`,
+        album: `Parapluie`,
+        french: `Il pleut, il pleut
+
+        La pluie tombe autour de moi
+        Mais je suis à l'abri
+        Sous mon parapluie 
+        (x2)
+        
+        Il pleut - Tout autour de moi
+        Il pleut - Mais je suis heureux
+        Il pleut - Car j'aime la pluie
+        Même quand je n'ai pas de parapluie
+        
+        Il pleut, il pleut
+        Les gouttes tombent sur moi
+        Mais je ne m'en fais pas
+        Car j'aime la pluie 
+        (x2)
+        
+        Il pleut - Tout autour de moi
+        Il pleut - Mais je suis heureux
+        Il pleut - Car j'aime la pluie
+        Même quand je n'ai pas de parapluie
+        
+        Il pleut, il pleut
+        La pluie tombe autour de moi
+        Mais je suis à l'abri
+        Sous mon parapluie 
+        (x2)
+        
+        Il pleut - Tout autour de moi
+        Il pleut - Mais je suis heureux
+        Il pleut - Car j'aime la pluie
+        Même quand je n'ai pas de parapluie`,
+        english: `It's raining, it's raining
+
+        Rain is falling all around me
+        But I have a shelter
+        Under my umbrella
+         
+        
+        It's raining - All around me
+        It's raining - But I am happy
+        It's raining - Because I like the rain
+        Even when I don't have an umbrella
+        
+        It's raining, it's raining
+        Rain drops fall on me
+        But I don't mind
+        Because I like the rain 
+         
+        
+        It's raining - All around me
+        It's raining - But I am happy
+        It's raining - Because I like the rain
+        Even when I don't have an umbrella
+        
+        It's raining, it's raining
+        Rain is falling all around me
+        But I have a shelter
+        Under my umbrella
+        
+        
+        It's raining - All around me
+        It's raining - But I am happy
+        It's raining - Because I like the rain
+        Even when I don't have an umbrella `,
+        copyright: '© 2006 Alain Le Lait',
         link: '',
     },
     {
         id: 43,
         image: '',
-        titleE: '',
-        titleF: ``,
+        titleE: 'Out Of Luck',
+        titleF: `Pas De Chance`,
+        album: `C'est Si Bon`,
+        french: `Monsieur, vous n’avez pas de chance
+        Elle vient de partir à l’instant
+        Je crois qu’elle allait en Provence
+        Pour aller y voir ses enfants
+        
+        J’ai une amie à Lyon
+        Qui s’appelle Georgette
+        Elle a les cheveux blonds
+        Et elle porte des lunettes
+        Je suis allé la voir
+        Elle n’était pas chez elle
+        Mais une de ses voisines
+        M’a donné de ses nouvelles
+        
+        Monsieur, vous n’avez pas de chance
+        Elle vient de partir à l’instant
+        Je crois qu’elle allait en Provence
+        Pour aller y voir ses enfants
+        
+        J’ai un ami à Rouen
+        Qui s’appelle Marcel
+        Il a les cheveux bruns
+        Et il porte des bretelles
+        Je suis allé le voir
+        Il n’était pas chez lui
+        Mais sa mère etait la
+        Et voici ce qu’elle m’a dit
+        
+        Monsieur, vous n’avez pas de chance
+        Elle vient de partir à l’instant
+        Je crois qu’elle allait en Provence
+        Pour aller y voir ses enfants
+        
+        Non, vous n’avez pas de chance
+        (x4)`,
+        english: `Sir, you are out of luck
+        She just left
+        I think that she was going to Provence
+        To see her children
+        
+        I have a friend in Lyon
+        Whose name is Georgette
+        She has blond hair
+        And she wears glasses
+        I went to see her
+        She was not at home
+        But one of her neighbors
+        Gave me some news (about her)
+        
+        Sir, you are out of luck
+        She just left
+        I think that she was going to Provence
+        To see her children
+        
+        I have a friend in Rouen
+        Whose name is Marcel
+        He has brown hair
+        And he wears suspenders
+        I went to see him
+        He was not home
+        But his mother was there
+        And this is what she told me
+        
+        Sir, you are out of luck
+        She just left
+        I think that she was going to Provence
+        To see her children
+        
+        No, you are out of luck
+        (x4)`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 44,
+        image: '',
+        titleE: 'Do You Knoe How to Plant Cauliflowers?',
+        titleF: `Savez-vous Planter Les Choux?`,
         album: ``,
-        french: ``,
-        english: ``,
+        french: `Chanson traditionelle
+
+ 
+
+        Savez-vous planter les choux?        
+        À la mode, à la mode
+        Savez-vous planter les choux?
+        À la mode de chez nous
+
+        On les plante avec le doigt
+        À la mode, à la mode
+        On les plante avec le doigt
+        À la mode de chez nous
+        
+        On les plante avec le pied
+        À la mode, à la mode
+        On les plante avec le pied
+        À la mode de chez nous
+
+        Savez-vous planter les choux?...        
+        On les plante avec le genou ...        
+        On les plante avec le coude ...        
+        Savez-vous planter les choux?...        
+        On les plante avec le nez ...        
+        On les plante avec le tête ...        
+        Savez-vous planter les choux?...`,
+        english: `Do you know how to plant cauliflowers?
+        In the fashion, in the fashion
+        Do you know how to plant cauliflowers?
+        In the fashion of our place
+
+        We plant them with the finger
+        In the fashion, in the fashion
+        We plant them with the finger
+        In the fashion of our place
+
+        We plant them with the foot
+        In the fashion, in the fashion
+        We plant them with the foot
+        In the fashion of our place
+
+        Do you know how to plant cauliflowers?...        
+        We plant them with the knee ...        
+        We plant them with the elbow ...        
+        Do you know how to plant cauliflowers?...        
+        We plant them with the nose ...        
+        We plant them with the head ...        
+        Do you know how to plant cauliflowers?...`,
+        copyright: '© 2006 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 45,
+        image: '',
+        titleE: 'Seven Larks',
+        titleF: `Sept Alouettes`,
+        album: `Soyons Amis`,
+        french: `Une, deux, trois, quatre, cinq,
+        six, sept
+        Sur une branche il y a sept alouettes
+        Une s’envole, les autres restent
+        Il ne reste que six alouettes
+        
+        Une, deux, trois, quatre, cinq,        
+        six, sept
+        Sur une branche il y a six alouettes
+        Deux s’envolent, les autres restent
+        Il ne reste que quatre alouettes
+        
+        Une, deux, trois, quatre, cinq,        
+        six, sept
+        Sur une branche il y a quatre alouettes
+        Trois s’envolent et l’autre reste
+        Il ne reste qu’une alouette
+        
+        Une, deux, trois, quatre, cinq,        
+        six, sept
+        Sur une branche il y a une alouette
+        Elle s’envole à la fête
+        Il ne reste plus d’alouettes`,
+        english: `One, two, three, four, five,
+        six, seven
+        On a branch there are seven larks
+        One flies away, the others stay
+        Only six larks remain
+        
+        One, two, three, four, five,        
+        six, seven
+        On a branch there are six larks
+        Two fly away, the others stay
+        Only four larks remain
+        
+        One, two, three, four, five,        
+        six, seven
+        On a branch there are four larks
+        Three fly away and the other stays
+        Only one lark remains
+        
+        One, two, three, four, five,        
+        six, seven
+        On a branch there is one lark
+        It flies away to the carnival
+        There are no more larks`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 46,
+        image: '',
+        titleE: `Let's Be Friends`,
+        titleF: `Soyons Amis`,
+        album: `Soyons Amis`,
+        french: `Donnons-nous la main
+        Et soyons amis
+        Un, deux, trois, quatre
+        Nous allons danser
+        (x2)
+        
+        Frappons dans nos mains
+        Et tappons des pieds
+        Et faisons un drôle de bruit
+        Comme daba, daba, daba, dou dé
+        (x2)`,
+        english: `Let us hold hands
+        And let us be friends
+        One, two, three, four
+        We are going to dance
+        (x2)
+        
+        Let’s clap our hands
+        And let’s stomp our feet
+        And let’s make a funny noise
+        Like daba, daba, daba, dou de
+        (x2)`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 47,
+        image: '',
+        titleE: 'Head, Shoulders, Knees and Feet',
+        titleF: `Tête, Epaules, Genoux Et Pieds`,
+        album: `Soyons Amis`,
+        french: `Chanson Traditionelle
+
+ 
+
+        Tête, épaules, genoux et pieds
+        Tête, épaules, genoux et pieds
+        J’ai un nez, deux yeux
+        Deux oreilles et une bouche
+        Tête, épaules, genoux et pieds`,
+        english: `Traditional
+
+ 
+
+        Head, shoulders, knees and feet
+        Head, shoulders, knees and feet
+        I have a nose, two eyes
+        Two ears and a mouth
+        Head, shoulders, knees and feet`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 48,
+        image: '',
+        titleE: 'Come To the House',
+        titleF: `Viens à La Maison`,
+        album: `C'est Si Bon`,
+        french: `Allez viens à la maison
+        J’ai du pain et du jambon
+        Allez viens à la maison
+        Allez viens, ne dit pas non
+        
+        Ici il y a la cuisine
+        Et là, la salle à manger
+        Voici la salle de bains
+        Veux-tu te laver les mains?
+        
+        Allez viens à la maison
+        J’ai du pain et du jambon
+        Allez viens à la maison
+        Allez viens, ne dit pas non
+        (x2)
+        
+        Ici il y a l’escalier
+        Qui monte jusqu’au grenier
+        Et tout au fond du couloir
+        Il y a la chambre à coucher
+        
+        Allez viens à la maison
+        J’ai du pain et du jambon
+        Allez viens à la maison
+        Allez viens, ne dit pas non
+        (x2)`,
+        english: `Come on, come to the house
+        I have some bread and some ham
+        Come on, come to the house
+        Come on, don’t say no
+        
+        Here is the kitchen
+        And there, the living room
+        Here is the bathroom
+        Do you want to wash your hands?
+        
+        Come on, come to the house
+        I have some bread and some ham
+        Come on, come to the house
+        Come on, don’t say no         
+        
+        Here is the staircase
+        That goes up to the attic
+        And at the end of the hall
+        There is the bedroom
+        
+        Come on, come to the house
+        I have some bread and some ham
+        Come on, come to the house
+        Come on, don’t say no`,
         copyright: '© 2003 Alain Le Lait',
         link: '',
     },
