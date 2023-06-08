@@ -1647,6 +1647,702 @@ export const songs = [
     {
         id: 31,
         image: '',
+        titleE: 'I Like Cars',
+        titleF: `J'aime Les Voitures`,
+        album: `C'est Si Bon`,
+        french: `J’aime les voitures
+        Les rouges, les bleues
+        Les blanches, les noires
+        Et les violettes
+        J’aime les voitures
+        Les jaunes, les vertes
+        Les roses, les beiges
+        Et les violettes
+        
+        J’aime les camions
+        Les rouges, les bleus
+        Les blancs, les noirs
+        Et les violets
+        J’aime les camions
+        Les jaunes, les verts
+        Les roses, les beiges
+        Et les violets
+        
+        Il y en a de toutes les couleurs       
+        Il y en a de toutes les couleurs
+        Il y en a de toutes les cou-leurs`,
+        english: `I like cars
+        The red ones, the blue ones
+        The white ones, the black ones
+        And the purple ones
+        I like cars
+        The yellow ones, the green ones
+        The pink ones, the beige ones
+        And the purple ones
+        
+        I like trucks
+        The red ones, the blue ones
+        The white ones, the black ones
+        And the purple ones
+        I like cars
+        The yellow ones, the green ones
+        The pink ones, the beige ones
+        And the purple ones
+        
+        They come in all colors
+        They come in all colors
+        They come in all colors`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 32,
+        image: '',
+        titleE: 'I Am Going On Vacation',
+        titleF: `Je M'en Vais En Vacances`,
+        album: `C'est Si Bon`,
+        french: `Au mois d’Août
+        Je m’en vais en vacances
+        Au mois d’Août
+        C’est à ça que je pense
+        Je m’en vais à la mer
+        Pour y faire du bateau
+        Pour aller me baigner
+        Tremper mes pieds dans l’eau     
+        
+        Au mois d’Août
+        Je m’en vais en vacances
+        Au mois d’Août
+        C’est à ça que je pense
+        
+        Je vais à la montagne
+        Pour aller me promener
+        Au milieu des sapins
+        Et des petits lapins
+        
+        Au mois d’Août
+        Je m’en vais en vacances
+        Au mois d’Août
+        C’est à ça que je pense`,
+        english: `In August
+        I am going on vacation
+        In August
+        This is what I think about
+        I am going to the sea
+        To sail on a boat
+        To go swimming
+        Dip my feet in the water
+        
+        In August
+        I am going on vacation
+        In August
+        This is what I think about
+        
+        I am going to the mountain   
+        To hike
+        Among the pine trees
+        And the little rabbits
+        
+        In August
+        I am going on vacation
+        In August
+        This is what I think about`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 33,
+        image: '',
+        titleE: 'I Brush My Teeth',
+        titleF: `Je Me Brosse Les Dents`,
+        album: `C'est Si Bon`,
+        french: `Le lundi je me brosse les dents
+        Le mardi je les brosse aussi
+        Le mercredi je me brosse les dents
+        Et bien sur aussi le jeudi
+        
+        C’est parceque je veux avoir
+        
+        les dents blanches
+        Que je les brosse le matin et le soir
+        Et quand je brosse mes dents je me
+        
+        sens bien
+        Car mes dents elles sont vraiment
+        
+        belles à voir, 
+        Oh oui
+        
+        Le vendredi je me brosse les dents
+        Le samedi je les brosse aussi
+        Le dimanche je me brosse les dents
+        Et toute la semaine je souris
+        
+        C’est parceque je veux avoir
+        
+        les dents blanches
+        Que je les brosse le matin
+        
+        et le soir
+        Et quand je brosse mes dents je me
+        
+        sens bien
+        Car mes dents elles sont vraiment
+        
+        belles à voir, 
+        Oh oui`,
+        english: `On Monday I brush my teeth
+        On Tuesday I brush them again
+        On Wednesday I brush my teeth 
+        And of course, on Thursday too
+        
+        It’s because I want to have
+        
+        white teeth
+        That I brush them in the morning and
+        
+         in the evening
+        And when I brush my teeth
+        
+        I feel good
+        Because my teeth are really
+        
+        nice to look at,
+        Oh yes
+        
+        On Friday I brush my teeth
+        On Saturday I brush them again
+        On Sunday I brush my teeth
+        And all week long I smile
+        
+        It’s because I want to have
+        
+        white teeth
+        That I brush them in the morning and
+        
+        in the evening
+        And when I brush my teeth
+        
+        I feel good
+        Because my teeth are really
+        
+        nice to look at,
+        Oh yes`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 34,
+        image: '',
+        titleE: `I Don't Want To`,
+        titleF: `Je Ne Veux Pas`,
+        album: `Parapluie`,
+        french: `Je ne veux pas
+        Aller dans le jardin
+        Il y a des petites        
+        bêtes
+        Qui piquent, qui piquent          
+        Il y a des guêpes
+        Et aussi des bourdons
+        Et des colimaçons
+        Qui piquent, qui piquent
+        Moi, je n'aime pas        
+        les piqûres 
+        Je ne veux pas
+        Aller dans le jardin
+        Il y a des petites bêtes
+        Qui piquent, qui piquent
+        Il y a des araignées,
+        Des moustiques
+        Et aussi des fourmis
+        Qui piquent, qui piquent
+        Moi, je n'aime pas        
+        les piqûres        
+        Je veux rester dans mon lit
+        Où il n'y a pas de
+        Petites bêtes
+        Qui piquent, qui piquent, 
+        Qui piquent
+        Je veux rester dans mon lit
+        Où il n'y a pas de fourmis
+        De moustiques et        
+        de bourdons
+        Et de colimaçons `,
+        english: `I don't want 
+        To go in the garden
+        There are little creatures 
+        Who sting, who sting
+        There are wasps
+        And bumblebees too
+        And tiny snails
+        Who sting, who sting
+        Me, I don't like to be stung        
+        I don't want 
+        To go in the garden
+        There are little creatures 
+        Who sting, who sting
+        There are spiders
+        Mosquitoes
+        And ants too
+        Who sting, who sting
+        Me, I don't like to be stung        
+        I want to stay in my bed
+        Where there are no 
+        Little creatures 
+        Who sting, who sting, 
+        Who sting
+        I want to stay in my bed
+        Where there are no ants
+        Mosquitoes and bumblebees
+        And tiny snails`,
+        copyright: '© 2006 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 35,
+        image: '',
+        titleE: 'I Am Going to the Market',
+        titleF: `Je Vais Au Marché`,
+        album: `Soyons Amis`,
+        french: `Aujourd’hui je vais au marché        
+        Au marché pour acheter
+        Aujourd’hui je vais au marché
+        Pour acheter un gros poulet        
+        Ce gros poulet        
+        je vais le partager
+        Ce gros poulet        
+        je vais le partager
+        Ce gros poulet        
+        je vais le partager
+        Avec mon ami le fermier        
+        Ce gros poulet nous allons        
+        le manger      
+        Ce gros poulet nous allons        
+        le manger
+        Ce gros poulet nous allons        
+        le manger
+        Pour le dîner ou le déjeuner        
+        Aujourd’hui je vais        
+        au marché
+        Au marché pour acheter
+        Aujourd’hui je vais        
+        au marché
+        Pour acheter un gros poulet `,
+        english: `Today I am going to the market
+        To the market to buy
+        Today I am going to the market
+        To buy a big chicken        
+        This big chicken        
+        I am going to share it     
+        This big chicken        
+        I am going to share it
+        This big chicken        
+        I am going to share it
+        With my friend the farmer        
+        This big chicken we are going to        
+        eat it
+        This big chicken we are going to        
+        eat it
+        This big chicken we are going to        
+        eat it
+        For diner or for lunch        
+        Today I am going to        
+        the market
+        To the market to buy
+        Today I am going to        
+        the market
+        To buy a big chicken`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 36,
+        image: '',
+        titleE: 'The Spider and the Animals',
+        titleF: `L'araignée Et Les Animaux`,
+        album: `Soyons Amis`,
+        french: `Un petit coq qui allait
+        se promener
+        Sur son chemin rencontra une araignée
+        L’araignée lui dit:
+        ‘Bonjour, Monsieur le Coq’
+        Et le coq lui répondit:
+        ‘Cocorico, Cocorico,        
+        Cocorico …’
+
+        Un canard jaune qui allait        
+        se promener
+        Sur son chemin rencontra une araignée
+        L’araignée lui dit:
+        ‘Bonjour, Monsieur Canard’
+        Et le canard lui répondit:
+        ‘Coin, coin, coin ...'
+
+        Une jolie vache qui allait        
+        se promener
+        Sur son chemin rencontra une araignée
+        L’araignée lui dit:
+        ‘Bonjour, Madame la Vache’
+        Et la vache lui répondit:
+        ‘Meuh, meuh, meuh …’
+
+        Un gros cochon qui allait        
+        se promener
+        Sur son chemin rencontra une araignée
+        L’araignée lui dit:
+        ‘Bonjour, Monsieur Cochon’
+        Et le cochon lui répondit:
+        ‘Ron, ron, ron  …’`,
+        english: `A little rooster who was going
+        for a walk
+        On his way met a spider
+        The spider said to it:
+        ‘Hello, Mister Rooster’
+        And the rooster replied:
+        ‘Cock-a-doodle doo,        
+        Cock-a-doodle doo
+
+        A yellow duck who was going        
+        for a walk
+        On his way met a spider
+        The spider said to it:
+        ‘Hello, Mister Duck’
+        And the duck replied:
+        ‘Quack, quack, quack …’
+        
+        A pretty cow who was going        
+        for a walk
+        On his way met a spider
+        The spider said to it:
+        ‘Hello, Miss Cow’
+        And the cow replied:
+        ‘Moo, moo, moo …’
+        
+        A fat pig who was going        
+        for a walk
+        On his way met a spider
+        The spider said to it:
+        ‘Hello, Mister Pig’
+        And the pig replied:
+        ‘Oink, oink, oink …’`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 37,
+        image: '',
+        titleE: 'The Dinosaurs',
+        titleF: `Les Dinosaures`,
+        album: `Soyons Amis`,
+        french: `Les dinosaures vont à la pêche
+        A la pêche aux moules
+        Les dinosaures vont à la pêche
+        Aux moules, moules, moules
+        
+        Ils s’en vont tous à la pêche
+        A la pêche aux moules
+        Ils s’en vont tous à la pêche
+        Aux moules, moules, moules
+        
+        En vélo
+        Ou en train
+        En bateau
+        Tous à bord les dinosaures
+        En camion
+        Ou à pied
+        En avion
+        Tous à bord
+        Messieurs les dinosaures
+        
+        Les dinosaures vont à la chasse
+        Chasse aux papillons
+        Les dinosaures vont à la chasse
+        Chasse aux papillons
+        
+        Ils s’en vont tous à la chasse
+        Chasse aux papillons
+        Ils s’en vont tous à la chasse
+        Chasse aux papillon 
+        
+        En vélo
+        Ou en train
+        En bateau
+        Tous à bord les dinosaures
+        En camion
+        Ou à pied
+        En avion
+        Tous à bord
+        Messieurs les dinosaures`,
+        english: `The dinosaurs are going fishing
+        Fishing for mussels
+        The dinosaurs are going fishing
+        For mussels, mussels, mussels
+        
+        They are all going fishing
+        Fishing for mussels
+        They are all going fishing
+        For mussels, mussels, mussels
+        
+        Bicycling
+        Or by train
+        By boat
+        All aboard the dinosaurs
+        By truck
+        Or walking
+        By airplane
+        All aboard
+        The dinosaurs
+        
+        The dinosaurs are going hunting
+        Hunting for butterflies
+        The dinosaurs are going hunting
+        Hunting for butterflies
+        
+        They are all going hunting
+        Hunting for butterflies
+        They are all going hunting
+        Hunting for butterflies
+        
+        Bicycling
+        Or by train
+        By boat
+        All aboard the dinosaurs
+        By truck
+        Or walking
+        By airplane
+        All aboard
+        The dinosaurs`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 38,
+        image: '',
+        titleE: 'The Fish',
+        titleF: `Les Poissons`,
+        album: `Soyons Amis`,
+        french: `Les poissons, les poissons
+        Ça ne sent pas tellement bon
+        Les poissons, les poissons
+        Ça a les yeux ronds
+        (x2)
+        
+        Les poissons, on, on, on
+        Les poissons, in, in, in
+        Les poissons, on, on, on
+        Ça nage trés bien
+        (x2)
+        
+        Les oiseaux, les oiseaux
+        Ça mange les escargots
+        Les oiseaux, les oiseaux
+        Et ça vole haut
+        (x2)
+        
+        Les oiseaux, o, o, o
+        Les oiseaux, in, in, in
+        Les oiseaux, o, o, o
+        Ça vole trés bien
+        (x2)
+        
+        Des lapins, des lapins
+        Il y en plein mon jardin
+        Des lapins, des lapins
+        Qui mangent les raisins
+        (x2)
+        
+        Les lapins, i, i, i
+        Les lapins, in, in, in
+        Les lapins, i, i, i
+        Ça saute trés bien
+        (x2)`,
+        english: `The fish, the fish
+        They don’t smell so good
+        The fish, the fish
+        They have round eyes
+        (x2)
+        
+        The fish, on, on, on
+        The fish, in, in, in
+        The fish, on, on, on
+        They swim very well
+        (x2)
+        
+        The birds, the birds
+        They eat snails
+        The birds, the birds
+        And they fly high
+        (x2)
+        
+        The birds, o, o, o
+        The birds, in, in, in
+        The birds, o, o, o
+        They fly very high
+        (x2)
+        
+        Rabbits, rabbits
+        My garden is full of them
+        Rabbits, rabbits
+        Eating the grapes
+        (x2)
+        
+        The rabbits, i, i, i
+        The rabbits, in, in, in
+        The rabbits, i, i, i
+        They jump very well
+        (x2)`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 39,
+        image: '',
+        titleE: 'My Family',
+        titleF: `Ma Famille`,
+        album: `Parapluie`,
+        french: `Mon papa s'appelle Henri
+        Il n'a pas de cheveux
+        Mais il est gentil
+        Ma maman s'appelle Julie
+        Elle a de grands yeux bleus
+        Qui brillent quand elle rie
+        
+        J'ai deux soeurs et un petit frère
+        Qui m'ennuie quelquefois
+        Mais je suis trés patient
+        Je suis trés patient
+        
+        J'ai un grand-père, c'est 'Pépé'
+        Une grand-mère, c'est 'Mémé'
+        Mémé et Pépé
+        J'appelle ma tante 'Tata'
+        Et mon oncle, c'est 'Tonton'
+        Tata et Tonton
+        
+        J'ai deux soeurs et un petit frère
+        Qui m'ennuie quelquefois
+        Mais je suis trés patient
+        Je suis trés patient
+        
+        Mon papa s'appelle Henri
+        Il n'a pas de cheveux
+        Mais il est gentil
+        Ma maman s'appelle Julie
+        Elle a de grands yeux bleus
+        Qui brillent quand elle rie
+        
+        J'ai deux soeurs et un petit frère
+        Qui m'ennuie quelquefois
+        Mais je suis trés patient
+        Je suis trés patient
+        Oh oui moi, je suis trés patient`,
+        english: `My dad's name is Henry
+        He doesn't have any hair
+        But he is very nice
+        My mom's name is Julie
+        She has big blue eyes
+        That shine when she laughs
+        
+        I have two sisters and a little brother
+        Who annoys me sometimes
+        But I am very patient
+        I am very patient
+        
+        I have a grandfather, it's 'Pépé'
+        A grandmother, it's 'Mémé'
+        Mémé et Pépé
+        I call my aunt 'Tata'
+        And my oncle, it's 'Tonton'
+        Tata and Tonton
+        
+        I have two sisters and a little brother
+        Who annoys me sometimes
+        But I am very patient
+        I am very patient
+        
+        My dad's name is Henry
+        He doesn't have any hair
+        But he is very nice
+        My mom's name is Julie
+        She has big blue eyes
+        That shine when she laughs
+        
+        I have two sisters and a little brother
+        Who annoys me sometimes
+        But I am very patient
+        I am very patient
+        Oh yes me, I am very patient`,
+        copyright: '© 2006 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 40,
+        image: '',
+        titleE: 'Ooh La La',
+        titleF: `Ouh La La`,
+        album: `C'est Si Bon`,
+        french: `Ouh la la la la la la
+        Je ne sais pas, je ne sais pas
+        Ouh la la la la la la
+        Si c’est un chien ou un chat
+        (x2)
+        
+        Un chien qui parle comme ça
+        C’est bizarre, c’est bizarre
+        Un chien qui parle comme ca
+        Ce serait plutôt un chat
+        
+        Un chien qui fait miaou, miaou, miaou
+        C’est bizarre, c’est bizarre
+        Un chien qui fait miaou, miaou, miaou
+        Ce serait plutôt un chat
+        
+        (Répétez depuis le debut)`,
+        english: `Ooh la la la la la la
+        I don’t know, I don’t know
+        Ooh la la la la la la
+        If it’s a dog or a cat
+        (x2)
+        
+        A dog who talks like that
+        It’s bizarre, it’s bizarre
+        A dog who talks like that
+        It is more likely to be a cat
+        
+        A dog who goes meow, meow, meow
+        It’s bizarre, it’s bizarre
+        A dog who goes meow, meow, meow
+        It is more likely to be a cat
+        
+        (Repeat from beginning)`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 41,
+        image: '',
+        titleE: '',
+        titleF: ``,
+        album: ``,
+        french: ``,
+        english: ``,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 42,
+        image: '',
+        titleE: '',
+        titleF: ``,
+        album: ``,
+        french: ``,
+        english: ``,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 43,
+        image: '',
         titleE: '',
         titleF: ``,
         album: ``,
