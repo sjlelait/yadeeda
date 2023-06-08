@@ -1130,6 +1130,523 @@ export const songs = [
     {
         id: 21,
         image: '',
+        titleE: 'Hello',
+        titleF: `Bonjour - CD Version`,
+        album: `Soyons Amis`,
+        french: `Bonjour, bonjour 
+        Comment ça va?
+        Bonjour, bonjour
+        Trés bien, merci
+        Je suis content d’être ici
+        Avec tous mes petits amis
+        Bonjour, bonjour
+        Comment ça va?
+        
+        Merci, merci
+        Merci d’être ici
+        Merci, merci
+        Écoutez
+        Aimez-vous cette chanson?
+        J’éspère que je suis dans le ton
+        Merci, merci
+        Merci d’être ici`,
+        english: `Hello, hello
+        How are you?
+        Hello, hello
+        Very well, thank you
+        I am happy to be here
+        With all my little friends
+        Hello, hello
+        How are you?
+        
+        Thank you, thank you
+        For being here
+        Thank you, thank you
+        Listen up
+        Do you like this song?
+        I hope that I am in tune
+        Thank you, thank you
+        For being here `,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 22,
+        image: '',
+        titleE: `It's So Good`,
+        titleF: `C'est Si Bon`,
+        album: `C'est Si Bon`,
+        french: `J’aime le beurre de cacahuètes
+        C’est si bon, oh c’est si bon
+        J’aime le beurre de cacahuètes
+        C’est bon mais ça colle aux dents
+        
+        Yam, yam, yam, oh c’est si bon
+        C’est bon mais ça colle aux dents 
+        (x2) 
+        
+        J’aime les journées ensoleillées
+        C’est si beau, c’est si beau
+        J’aime les journées ensoleillées
+        Je mets de la crème sur mes doigts de pieds
+        
+        Et ça sent bon, oh ça sent bon
+        La crème que je mets sur mes doigts de pieds        
+        
+        (Répétez depuis le début)`,
+        english: `I like peanut butter
+        It’s so good, oh it’s so good
+        I like peanut butter
+        It’s good but it sticks to my teeth
+        
+        Yum, yum, yum, oh it’s so good
+        It’s good but it sticks to my teeth
+        (x2)
+        
+        I like is sunny days
+        It’s so nice, it’s so nice
+        I like is sunny days
+        I put sunscreen on my toes
+        
+        And it smells good, oh it smells good    
+        The sunscreen I put on my toes
+        
+        (Repeat from the beginning) `,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 23,
+        image: '',
+        titleE: 'In the Sky',
+        titleF: `Dans Le Ciel`,
+        album: `Soyons Amis`,
+        french: `Dans le ciel, dans le ciel
+        Il y a la lune
+        Dans le ciel, dans le ciel
+        La lune et le soleil
+        
+        Dans le ciel, dans le ciel
+        Il y a les étoiles 
+        Dans le ciel, dans le ciel
+        Les étoiles et le soleil
+        
+        Et dans le ciel il y a des oiseaux
+        Qui chantent cui, cui, cui, cui, cui
+        (x2)
+        
+        Dans le ciel, dans le ciel
+        Il y a les nuages
+        Dans le ciel, dans le ciel
+        Les nuages et le soleil
+        
+        Dans le ciel, dans le ciel
+        Il y a la lune
+        Dans le ciel, dans le ciel
+        La lune et le soleil
+        
+        Et dans le ciel il y a des oiseaux
+        Qui chantent cui, cui, cui, cui, cui
+        (x2)`,
+        english: `In the sky, in the sky
+        There is the moon
+        In the sky, in the sky
+        The moon and the sun
+        
+        In the sky, in the sky
+        There are the stars
+        In the sky, in the sky
+        The stars and the sun
+        
+        And in the sky there are birds
+        Singing chirp, chirp, chirp, chirp, chirp
+        (x2)
+        
+        In the sky, in the sky
+        There are the clouds
+        In the sky, in the sky
+        The clouds and the sun
+        
+        In the sky, in the sky
+        There is the moon
+        In the sky, in the sky
+        The moon and the sun
+        
+        And in the sky there are birds
+        Singing chirp, chirp, chirp, chirp, chirp
+        (x2)`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 24,
+        image: '',
+        titleE: 'In Front of Me',
+        titleF: `Devant Moi`,
+        album: `Parapluie`,
+        french: `Devant moi, devant moi
+        Devant moi il y a
+        Un camion de pompiers
+        Un camion de pompiers
+        (x2)
+        
+        Derrière moi, derrière moi
+        Derrière moi il y a
+        Une voiture de police
+        Une voiture de police
+        (x2)
+        
+        Et à côté de moi
+        Il y a mon chien
+        Qui fait une sieste
+        Il fait une sieste à côté de moi
+        
+        Au dessus, au dessus
+        Au dessus de chez moi
+        Il y a un garçon
+        Assis sur son balcon
+        (x2)
+        
+        En dessous, en dessous
+        En dessous de chez moi
+        Il y a une fille
+        Qui joue du violon
+        (x2)
+        
+        Et à côté de moi
+        Il y a mon chien
+        Qui fait une sieste
+        Il fait une sieste à côté de moi
+        
+        Au dessus, au dessus
+        Au dessus de chez moi
+        Il y a un garçon
+        Assis sur son balcon
+        Il y a un garçon
+        Assis sur son balcon`,
+        english: `In front of me, in front of me
+        In front of me there is
+        A firetruck
+        A firetruck
+        (x2)
+        
+        Behind me, behind me
+        Behind me there is 
+        A police car
+        A police car
+        (x2)
+        
+        And next to me
+        There is my dog
+        Who's taking a nap
+        He is taking a nap next to me
+        
+        Above me, above me
+        Above my place 
+        There is a boy
+        Sitting on his balcony
+        (x2)
+        
+        Under me, under me
+        Under my place
+        There is a girl
+        Who plays violin
+         (x2)
+        
+        And next to me
+        There is my dog
+        Who's taking a nap
+        He is taking a nap next to me
+        
+        Above me, above me
+        Above my place 
+        There is a boy
+        Sitting on his balcony
+        There is a boy
+        Sitting on his balcony`,
+        copyright: '© 2006 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 25,
+        image: '',
+        titleE: 'Funny Face',
+        titleF: `Drôle De Tête`,
+        album: `Soyons Amis`,
+        french: `Tu touches, touches, touches ton nez
+        Tu tires, tires, tires tes oreilles
+        Avec ta bouche tu fais un cercle
+        Et puis tu ouvres grand tes yeux
+        Tu fais une drôle de tête
+        La drôle de tête que voici
+        Tu fais une drôle de tête
+        La drôle de tête que voilà`,
+        english: `You touch, touch, touch your nose
+        You pull, pull, pull your ears
+        With your mouth you make a circle
+        And then you open wide your eyes
+        You make a funny face
+        A funny face oh yes it is
+        You make a funny face
+        A funny face oh yes it is`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 26,
+        image: '',
+        titleE: 'Here Are Some',
+        titleF: `En Voici, En Voilà`,
+        album: `C'est Si Bon`,
+        french: `Un steak haché bien cuit
+        Du riz, des spaghettis
+        Des croquettes de poisson
+        Un petit morceau de melon
+        Une tranche de pizza
+        Un gâteau au chocolat
+        Des frites et du poulet
+        Avec un verre de lait bien frais
+        
+        En voici, en voilà
+        Des bons petits plats
+        Des sucrés, des salés
+        Des chauds ou des froids
+        
+        De la soupe aux vermicelles
+        Du nougat, des caramels
+        Tarte aux pommes, pommes vapeur
+        Crêpes au sucre et 
+        Pâtes au beurre
+        
+        Répétez depuis le début
+        
+        De la soupe aux vermicelles
+        Du nougat, des caramels
+        Tarte aux pommes, pommes vapeur
+        Crêpes au sucre et 
+        Pâtes au beurre
+        (x3)`,
+        english: `A hamburger (patty) well done
+        Rice or spaghetti
+        Fish sticks
+        A small piece of cantaloupe
+        A slice of pizza
+        A chocolate cake
+        French fries and some chicken
+        With a cold glass of milk
+        
+        Here are some
+        Good little dishes
+        Some sweet, some salty
+        Some hot or some cold
+        
+        Noodle soup
+        Nougat, caramels
+        Apple tart, steamed potatoes
+        Sugared crêpes and 
+        Pasta with butter 
+        
+        (Repeat from the beginning)
+        
+         Noodle soup
+        Nougat, caramels
+        Apple tart, steamed potatoes
+        Sugared crêpes and 
+        Pasta with butter `,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 27,
+        image: '',
+        titleE: 'Brother John',
+        titleF: `Frère Jacques`,
+        album: `Soyons Amis`,
+        french: `Chanson traditionelle
+
+ 
+
+        Frère Jacques, Frère Jacques
+        Dormez-vous, dormez-vous?
+        Sonnez les mâtines
+        Sonnez les mâtines
+        Ding, dang, dong`,
+        english: `Traditional
+
+ 
+
+        Brother John, Brother John
+        Are you sleeping, are you sleeping?
+        Ring the morning bells
+        Ring the morning bells
+        Din, din, don`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 28,
+        image: '',
+        titleE: 'I’Hungry, I’m Thirsty',
+        titleF: `J’ai Faim, J’ai Soif`,
+        album: `Soyons Amis`,
+        french: `J’ai faim, je mange
+        J’ai soif, je bois
+        Quand j’ai sommeil, je dors
+        (x2)
+        
+        Et chaque jour je joue, joue, joue
+        Dans le parc près de chez moi
+        Et chaque jour je joue, joue, joue
+        Dans le parc près de chez moi
+        
+        J’ai faim, je mange
+        J’ai soif, je bois
+        Quand j’ai sommeil, je dors
+        (x2)
+        
+        Et chaque jour je cours, cours, cours ...  
+        
+        J’ai faim, je mange
+        J’ai soif, je bois
+        Quand j’ai sommeil, je dors
+        (x2)
+        
+        Et chaque jour je saute, saute, saute …`,
+        english: `I’m hungry, I eat
+        I’m thirsty, I drink
+        When I’m sleepy, I sleep
+        (x2)
+        
+        And every day I play, play, play
+        In the playground near my house
+        And every day I play, play, play
+        In the playground near my house
+        
+        I’m hungry, I eat
+        I’m thirsty, I drink
+        When I’m sleepy, I sleep
+        (x2)
+        
+        And every day I run, run, run…
+        
+        I’m hungry, I eat
+        I’m thirsty, I drink
+        When I’m sleepy, I sleep
+        (x2)
+        
+        And every day I jump, jump, jump…`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 29,
+        image: '',
+        titleE: 'I Have Lost My Keys',
+        titleF: `J'ai Perdu Me Clé`,
+        album: `C'est Si Bon`,
+        french: `J’ai perdu ma clé
+        Je ne peux pas entrer
+        Ouvre-moi la porte
+        S’il te plaît
+        (x2)
+        
+        Je pourrais passer par la fenêtre   
+        Mais papa ne veut pas
+        Que je passe par la
+        
+        J’ai perdu ma clé
+        Je ne peux pas entrer
+        Ouvre-moi la porte
+        S’il te plaît
+        
+        Ouvre-moi la porte
+        Ouvre-moi la porte
+        Ouvre-moi la porte
+        S’il te plaît
+        
+        (Répétez depuis le début)`,
+        english: `I have lost my key
+        I can’t come in
+        Open the door for me
+        Please
+        (x2)
+        
+        I could go through the window
+        But Dad does not want me
+        To go this way
+        
+        I have lost my key
+        I can’t come in
+        Open the door for me
+        Please
+        
+        Open the door for me
+        Open the door for me
+        Open the door for me
+        Please
+        
+        (Repeat from the beginning)`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 30,
+        image: '',
+        titleE: 'I Like Fruits',
+        titleF: `J'aime Les Fruits`,
+        album: `Soyons Amis`,
+        french: `J’aime les fruits
+        J’aime les bananes
+        J’aime les fruits
+        Et les pommes aussi
+        (x2)
+        
+        J’aime les bananes
+        Les jolies bananes
+        Et j’aime les pommes
+        Et les pommes aussi
+        (x2)
+        
+        J’aime les fruits
+        J’aime les oranges
+        J’aime les fruits
+        Et les poires aussi
+        (x2)
+        
+        J’aime les oranges
+        Les jolies oranges
+        Et j’aime les poires
+        Et les poires aussi
+        (x2)`,
+        english: `I like fruits
+        I like bananas
+        I like fruits
+        And apples too
+        (x2)
+        
+        I like bananas
+        Nice bananas
+        And I like apples
+        Apples too
+        (x2)
+        
+        I like fruits
+        I like oranges
+        I like fruits
+        And pears too
+        (x2)
+        
+        I like oranges
+        Nice oranges
+        And I like pears
+        Pears too
+        (x2)`,
+        copyright: '© 2003 Alain Le Lait',
+        link: '',
+    },
+    {
+        id: 31,
+        image: '',
         titleE: '',
         titleF: ``,
         album: ``,
