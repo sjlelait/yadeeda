@@ -166,9 +166,7 @@ export const songs = [
         id: 3,
         image: '',
         titleE: 'Big Nose',
-        titleF: null,
         album: `It's So Good`,
-        french: null,
         english: `It’s a dog, it’s a dog
         Woof, woof, woof (x2)
         It’s a dog, it’s a dog
@@ -274,9 +272,7 @@ export const songs = [
         id: 5,
         image: '',
         titleE: 'Hello!',
-        titleF: null,
         album: `It's So Good`,
-        french: null,
         english: `Hello, hello
         Hey, how are you?
         Hello, hello
@@ -301,9 +297,7 @@ export const songs = [
         id: 6,
         image: '',
         titleE: 'I Brush My Teeth',
-        titleF: null,
         album: `It's So Good`,
-        french: null,
         english: `Every morning after breakfast
         I brush my teeth
         Every evening after dinner
@@ -327,9 +321,7 @@ export const songs = [
         id: 7,
         image: '',
         titleE: 'I Have a Car',
-        titleF: null,
         album: `It's So Good`,
-        french: null,
         english: `I have a car
         It’s red and blue
         It’s black and white
@@ -358,9 +350,7 @@ export const songs = [
         id: 8,
         image: '',
         titleE: `I'm Hungry`,
-        titleF: null,
         album: `It's So Good`,
-        french: null,
         english: `I’m hungry, I eat
         I’m thirsty, I drink
         When I’m sleepy, I sleep
@@ -394,9 +384,7 @@ export const songs = [
         id: 9,
         image: '',
         titleE: `It's So Good`,
-        titleF: null,
         album: `It's So Good`,
-        french: null,
         english: `What I like is peanut butter
         It’s so good, oh it’s so good
         What I like is peanut butter
@@ -768,9 +756,7 @@ export const songs = [
         id: 16,
         image: '',
         titleE: 'Sing the Alphabet',
-        titleF: null,
         album: `It's So Good`,
-        french: null,
         english: `A, B, C, D, E
 
         F, G, H, I, J
@@ -789,9 +775,7 @@ export const songs = [
         id: 17,
         image: '',
         titleE: 'Sit Down',
-        titleF: null,
         album: `It's So Good`,
-        french: null,
         english: `Sit down, stand up
         Stand up, sit down
         Come and sit right next to me
