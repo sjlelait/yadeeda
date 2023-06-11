@@ -20,7 +20,7 @@ function Main(props) {
                 <Route path='/reviews' element={<Reviews />} />
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/songs' element={<Songs />} />
-                <Route path='/song' element={<Song />} />
+                <Route path='/song/:id' element={<Song />} />
                 <Route path='/videos' element={<Videos />} />
             </Routes>
         </main>
