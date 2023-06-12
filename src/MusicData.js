@@ -2769,3 +2769,12 @@ export const songs = [
         link: '',
     },
 ]
+
+export const videos = [
+    {
+        id: 1,
+        title: '',
+        link: '',
+        category: '',
+    },
+]
