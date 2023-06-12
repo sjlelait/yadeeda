@@ -11,7 +11,9 @@ function App() {
       <div className='App'>
         <Header />
         <YoutubeButton />
-        <Main />
+        <div className="main-container pb-16">
+          <Main />
+        </div>
         <Footer/>
       </div>
     </Router>
