@@ -10,7 +10,7 @@ const HomeCard = ({ title, image, description, link, bgColor }) => {
       {description && <p>{description}</p>}
       {link && 
         <a href={link} className="bg-orange-500 text-white px-4 py-2 mt-4 inline-block rounded">
-          Read More
+          Let's Go!
         </a>}
     </div>
   );
