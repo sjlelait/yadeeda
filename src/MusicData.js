@@ -1,7 +1,7 @@
 export const songs = [
     {
         id: 1,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: `Ah, Les Légumes`,
         titleF: 'Ah, The Vegetables',
         album: 'Parapluie',
@@ -79,7 +79,7 @@ export const songs = [
     },
     {
         id: 2,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: 'Arc-en-ciel',
         titleF: 'Rainbow',
         album: 'Parapluie',
@@ -164,7 +164,7 @@ export const songs = [
     },
     {
         id: 3,
-        image: '',
+        image: require('./assets/ItsSoGoodCover.jpg'),
         titleE: 'Big Nose',
         album: `It's So Good`,
         english: `It’s a dog, it’s a dog
@@ -229,7 +229,7 @@ export const songs = [
     },
     {
         id: 4,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: 'Bones, you must have them',
         titleF: 'Des os, il en faut',
         album: 'Parapluie',
@@ -270,7 +270,7 @@ export const songs = [
     },
     {
         id: 5,
-        image: '',
+        image: require('./assets/ItsSoGoodCover.jpg'),
         titleE: 'Hello!',
         album: `It's So Good`,
         english: `Hello, hello
@@ -295,7 +295,7 @@ export const songs = [
     },
     {
         id: 6,
-        image: '',
+        image: require('./assets/ItsSoGoodCover.jpg'),
         titleE: 'I Brush My Teeth',
         album: `It's So Good`,
         english: `Every morning after breakfast
@@ -319,7 +319,7 @@ export const songs = [
     },
     {
         id: 7,
-        image: '',
+        image: require('./assets/ItsSoGoodCover.jpg'),
         titleE: 'I Have a Car',
         album: `It's So Good`,
         english: `I have a car
@@ -348,7 +348,7 @@ export const songs = [
     },
     {
         id: 8,
-        image: '',
+        image: require('./assets/ItsSoGoodCover.jpg'),
         titleE: `I'm Hungry`,
         album: `It's So Good`,
         english: `I’m hungry, I eat
@@ -382,7 +382,7 @@ export const songs = [
     },
     {
         id: 9,
-        image: '',
+        image: require('./assets/ItsSoGoodCover.jpg'),
         titleE: `It's So Good`,
         album: `It's So Good`,
         english: `What I like is peanut butter
@@ -407,7 +407,7 @@ export const songs = [
     },
     {
         id: 10,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: 'I Have a Refrigerator',
         titleF: `J'ai un Réfrigérateur`,
         album: 'Parapluie',
@@ -454,7 +454,7 @@ export const songs = [
     },
     {
         id: 11,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: 'The French Alphabet',
         titleF: `L'alphabet en Français`,
         album: `C'est Si Bon`,
@@ -487,7 +487,7 @@ export const songs = [
     },
     {
         id: 12,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: 'Recess Time',
         titleF: `L'heure de la Récréation`,
         album: `Parapluie`,
@@ -558,7 +558,7 @@ export const songs = [
     },
     {
         id: 13,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: 'The Giraffe and the Hippopotamus',
         titleF: `La Girafe et L’hippopotame`,
         album: `C'est Si Bon`,
@@ -602,7 +602,7 @@ export const songs = [
     },
     {
         id: 14,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: 'The Fish',
         titleF: `Les poissons`,
         album: `Parapluie`,
@@ -681,7 +681,7 @@ export const songs = [
     },
     {
         id: 15,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: 'Why is it making this noise?',
         titleF: `Pourquoi Fait-il ce Bruit La?`,
         album: `Parapluie`,
@@ -754,7 +754,7 @@ export const songs = [
     },
     {
         id: 16,
-        image: '',
+        image: require('./assets/ItsSoGoodCover.jpg'),
         titleE: 'Sing the Alphabet',
         album: `It's So Good`,
         english: `A, B, C, D, E
@@ -773,7 +773,7 @@ export const songs = [
     },
     {
         id: 17,
-        image: '',
+        image: require('./assets/ItsSoGoodCover.jpg'),
         titleE: 'Sit Down',
         album: `It's So Good`,
         english: `Sit down, stand up
@@ -796,7 +796,7 @@ export const songs = [
     },
     {
         id: 18,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: 'Lark',
         titleF: `Alouette - CD version`,
         album: `Parapluie`,
@@ -953,7 +953,7 @@ export const songs = [
     },
     {
         id: 19,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: 'Sit Down, Stand Up',
         titleF: `Assis, Debout`,
         album: `C'est Si Bon`,
@@ -996,7 +996,7 @@ export const songs = [
     },
     {
         id: 20,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'With a Big Nose',
         titleF: `Avec un Gros Nez`,
         album: `Soyons Amis`,
@@ -1113,7 +1113,7 @@ export const songs = [
     },
     {
         id: 21,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'Hello',
         titleF: `Bonjour - CD Version`,
         album: `Soyons Amis`,
@@ -1156,7 +1156,7 @@ export const songs = [
     },
     {
         id: 22,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: `It's So Good`,
         titleF: `C'est Si Bon`,
         album: `C'est Si Bon`,
@@ -1201,7 +1201,7 @@ export const songs = [
     },
     {
         id: 23,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'In the Sky',
         titleF: `Dans Le Ciel`,
         album: `Soyons Amis`,
@@ -1264,7 +1264,7 @@ export const songs = [
     },
     {
         id: 24,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: 'In Front of Me',
         titleF: `Devant Moi`,
         album: `Parapluie`,
@@ -1353,7 +1353,7 @@ export const songs = [
     },
     {
         id: 25,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'Funny Face',
         titleF: `Drôle De Tête`,
         album: `Soyons Amis`,
@@ -1378,7 +1378,7 @@ export const songs = [
     },
     {
         id: 26,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: 'Here Are Some',
         titleF: `En Voici, En Voilà`,
         album: `C'est Si Bon`,
@@ -1442,7 +1442,7 @@ export const songs = [
     },
     {
         id: 27,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'Brother John',
         titleF: `Frère Jacques`,
         album: `Soyons Amis`,
@@ -1469,7 +1469,7 @@ export const songs = [
     },
     {
         id: 28,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'I’Hungry, I’m Thirsty',
         titleF: `J’ai Faim, J’ai Soif`,
         album: `Soyons Amis`,
@@ -1524,7 +1524,7 @@ export const songs = [
     },
     {
         id: 29,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: 'I Have Lost My Keys',
         titleF: `J'ai Perdu Me Clé`,
         album: `C'est Si Bon`,
@@ -1575,7 +1575,7 @@ export const songs = [
     },
     {
         id: 30,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'I Like Fruits',
         titleF: `J'aime Les Fruits`,
         album: `Soyons Amis`,
@@ -1630,7 +1630,7 @@ export const songs = [
     },
     {
         id: 31,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: 'I Like Cars',
         titleF: `J'aime Les Voitures`,
         album: `C'est Si Bon`,
@@ -1681,7 +1681,7 @@ export const songs = [
     },
     {
         id: 32,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: 'I Am Going On Vacation',
         titleF: `Je M'en Vais En Vacances`,
         album: `C'est Si Bon`,
@@ -1736,7 +1736,7 @@ export const songs = [
     },
     {
         id: 33,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: 'I Brush My Teeth',
         titleF: `Je Me Brosse Les Dents`,
         album: `C'est Si Bon`,
@@ -1817,7 +1817,7 @@ export const songs = [
     },
     {
         id: 34,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: `I Don't Want To`,
         titleF: `Je Ne Veux Pas`,
         album: `Parapluie`,
@@ -1884,7 +1884,7 @@ export const songs = [
     },
     {
         id: 35,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'I Am Going to the Market',
         titleF: `Je Vais Au Marché`,
         album: `Soyons Amis`,
@@ -1941,7 +1941,7 @@ export const songs = [
     },
     {
         id: 36,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'The Spider and the Animals',
         titleF: `L'araignée Et Les Animaux`,
         album: `Soyons Amis`,
@@ -2014,7 +2014,7 @@ export const songs = [
     },
     {
         id: 37,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'The Dinosaurs',
         titleF: `Les Dinosaures`,
         album: `Soyons Amis`,
@@ -2101,7 +2101,7 @@ export const songs = [
     },
     {
         id: 38,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'The Fish',
         titleF: `Les Poissons`,
         album: `Soyons Amis`,
@@ -2180,7 +2180,7 @@ export const songs = [
     },
     {
         id: 39,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: 'My Family',
         titleF: `Ma Famille`,
         album: `Parapluie`,
@@ -2261,7 +2261,7 @@ export const songs = [
     },
     {
         id: 40,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: 'Ooh La La',
         titleF: `Ouh La La`,
         album: `C'est Si Bon`,
@@ -2304,8 +2304,8 @@ export const songs = [
     },
     {
         id: 41,
-        image: '',
-        titleE: '',
+        image: require('./assets/ParapluieCover.jpg'),
+        titleE: 'Where Did You Put The Spaghettis?',
         titleF: `Où As-tu Mis Les Spaghettis?`,
         album: `Parapluie`,
         french: `Où as-tu mis les spaghettis?
@@ -2387,7 +2387,7 @@ export const songs = [
     },
     {
         id: 42,
-        image: '',
+        image: require('./assets/ParapluieCover.jpg'),
         titleE: 'Umbrella',
         titleF: `Parapluie`,
         album: `Parapluie`,
@@ -2462,7 +2462,7 @@ export const songs = [
     },
     {
         id: 43,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: 'Out Of Luck',
         titleF: `Pas De Chance`,
         album: `C'est Si Bon`,
@@ -2541,10 +2541,10 @@ export const songs = [
     },
     {
         id: 44,
-        image: '',
-        titleE: 'Do You Knoe How to Plant Cauliflowers?',
+        image: require('./assets/ParapluieCover.jpg'),
+        titleE: 'Do You Know How to Plant Cauliflowers?',
         titleF: `Savez-vous Planter Les Choux?`,
-        album: ``,
+        album: `Parapluie`,
         french: `Chanson traditionelle
 
  
@@ -2598,7 +2598,7 @@ export const songs = [
     },
     {
         id: 45,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'Seven Larks',
         titleF: `Sept Alouettes`,
         album: `Soyons Amis`,
@@ -2653,7 +2653,7 @@ export const songs = [
     },
     {
         id: 46,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: `Let's Be Friends`,
         titleF: `Soyons Amis`,
         album: `Soyons Amis`,
@@ -2684,7 +2684,7 @@ export const songs = [
     },
     {
         id: 47,
-        image: '',
+        image: require('./assets/SoyonsAmisCover.jpg'),
         titleE: 'Head, Shoulders, Knees and Feet',
         titleF: `Tête, Epaules, Genoux Et Pieds`,
         album: `Soyons Amis`,
@@ -2711,7 +2711,7 @@ export const songs = [
     },
     {
         id: 48,
-        image: '',
+        image: require('./assets/CestSiBonCover.jpg'),
         titleE: 'Come To the House',
         titleF: `Viens à La Maison`,
         album: `C'est Si Bon`,
