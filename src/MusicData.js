@@ -2775,8 +2775,8 @@ export const videos = [
         id: 101,
         title: 'Be Kind To Others',
         link: 'https://www.youtube.com/watch?v=j4No4jtOGpo',
-        category: '',
-        playlist: '',
+        category: 'English',
+        playlist: 'English Songs',
         copyright: '© 2022 Music & animation by Alain Le Lait',
     },
     {
@@ -2784,7 +2784,7 @@ export const videos = [
         title: 'Who Is a Good Dog?',
         link: 'https://www.youtube.com/watch?v=PXQLJBhMMAA',
         category: 'Adult',
-        playlist: '',
+        playlist: 'Adult',
         copyright: '© 2022 Music & animation by Alain Le Lait',
     },
     {
@@ -2792,7 +2792,7 @@ export const videos = [
         title: 'Les Beignets',
         link: 'https://www.youtube.com/watch?v=cGnVLRzLZHE',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2021 Music & animation by Alain Le Lait',
     },
     {
@@ -2800,7 +2800,7 @@ export const videos = [
         title: 'Verbe Devoir',
         link: 'https://www.youtube.com/watch?v=5TgAQnCr920',
         category: 'French',
-        playlist: '',
+        playlist: 'Verbs & Prepositions',
         copyright: '© 2020 Music & animation by Alain Le Lait',
     },
     {
@@ -2808,7 +2808,7 @@ export const videos = [
         title: 'Halloween',
         link: 'https://www.youtube.com/watch?v=YpOFtRq36Kg',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2018 Music & animation by Alain Le Lait',
     },
     {
@@ -2816,7 +2816,7 @@ export const videos = [
         title: `Verbe Finir - Présent de l'indicatif`,
         link: 'https://www.youtube.com/watch?v=kUs7m4KSjmY',
         category: 'French',
-        playlist: '',
+        playlist: [ 'Verbs & Prepositions', 'Adjectifs Possessifs'],
         copyright: '© 2018 Music & animation by Alain Le Lait',
     },
     {
@@ -2824,7 +2824,7 @@ export const videos = [
         title: 'Quel Temps Fait-il?',
         link: 'https://www.youtube.com/watch?v=eBvJVOuBPXI',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2017 Music & animation by Alain Le Lait',
     },
     {
@@ -2832,7 +2832,7 @@ export const videos = [
         title: `Au Petit Déjeuner`,
         link: 'https://www.youtube.com/watch?v=d5U4kDDBCVA',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2017 Music & animation by Alain Le Lait',
     },
     {
@@ -2840,7 +2840,7 @@ export const videos = [
         title: 'Les Poissons',
         link: 'https://www.youtube.com/watch?v=oBSoWK1Tfpk',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2017 Music & animation by Alain Le Lait',
     },
     {
@@ -2848,7 +2848,7 @@ export const videos = [
         title: `Ma Journée (Le Passé Composé)`,
         link: 'https://www.youtube.com/watch?v=jwvaw6WcQCg',
         category: 'French',
-        playlist: '',
+        playlist: 'Verbs & Prepositions',
         copyright: '© 2017 Music & animation by Alain Le Lait',
     },
     {
@@ -2856,7 +2856,7 @@ export const videos = [
         title: `Les Vêtements (clothes in French)`,
         link: 'https://www.youtube.com/watch?v=JDidxfQ4qB4',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2016 Music & animation by Alain Le Lait',
     },
     {
@@ -2864,7 +2864,7 @@ export const videos = [
         title: `Les Émotions `,
         link: 'https://www.youtube.com/watch?v=jvB6ZAlorug',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2016 Music & animation by Alain Le Lait',
     },
     {
@@ -2872,7 +2872,7 @@ export const videos = [
         title: `Parapluie `,
         link: 'https://www.youtube.com/watch?v=B_kvXWBLUvI',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2016 Music & animation by Alain Le Lait',
     },
     {
@@ -2880,7 +2880,7 @@ export const videos = [
         title: `Où est le Chat?`,
         link: 'https://www.youtube.com/watch?v=npniUd2M_vI',
         category: 'French',
-        playlist: '',
+        playlist: [ 'Verbs & Prepositions', 'Vocab' ],
         copyright: '© 2017 Music & animation by Alain Le Lait',
     },
     {
@@ -2888,7 +2888,7 @@ export const videos = [
         title: `Les Chiffres et les Nombres de 70 à 100 (French Numbers)`,
         link: 'https://www.youtube.com/watch?v=AnOXzJfLuU4',
         category: 'French',
-        playlist: '',
+        playlist: 'Learning Numbers',
         copyright: '© 2015 Music & animation by Alain Le Lait',
     },
     {
@@ -2896,7 +2896,7 @@ export const videos = [
         title: `Les Chiffres et les Nombres de 50 à 70 (French Numbers)`,
         link: 'https://www.youtube.com/watch?v=oIYvC7r05mU',
         category: 'French',
-        playlist: '',
+        playlist: 'Learning Numbers',
         copyright: '© 2015 Music & animation by Alain Le Lait',
     },
     {
@@ -2904,7 +2904,7 @@ export const videos = [
         title: `Les Chiffres et les Nombres de 20 à 50 (French Numbers)`,
         link: 'https://www.youtube.com/watch?v=wlYqz2unHKc',
         category: 'French',
-        playlist: '',
+        playlist: 'Learning Numbers',
         copyright: '© 2015 Music & animation by Alain Le Lait',
     },
     {
@@ -2912,7 +2912,7 @@ export const videos = [
         title: `Where is Zoey? (Song #3)`,
         link: 'https://www.youtube.com/watch?v=o10yePAGNJk',
         category: 'Zoey',
-        playlist: '',
+        playlist: [ 'Zoey & the Yok Yok Man', 'English Songs' ],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
     {
@@ -2920,7 +2920,7 @@ export const videos = [
         title: `The Yok Yok Man (Song #2)`,
         link: 'https://www.youtube.com/watch?v=YrSgvJm79Yc',
         category: 'Zoey',
-        playlist: '',
+        playlist: [ 'Zoey & the Yok Yok Man', 'English Songs' ],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
     {
@@ -2928,7 +2928,7 @@ export const videos = [
         title: `The Story of Sam and Sally (Song #1)`,
         link: 'https://www.youtube.com/watch?v=M2BttB7Z2pc',
         category: 'Zoey',
-        playlist: '',
+        playlist: [ 'Zoey & the Yok Yok Man', 'English Songs' ],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
     {
@@ -2936,7 +2936,7 @@ export const videos = [
         title: `Verbe Faire - Présent de l'indicatif`,
         link: 'https://www.youtube.com/watch?v=Ulw2HkqKaiQ',
         category: 'French',
-        playlist: '',
+        playlist: 'Verbs & Prepositions',
         copyright: '© 2015 Music & animation by Alain Le Lait',
     },
     {
@@ -2944,7 +2944,7 @@ export const videos = [
         title: `Verbe Aller - Présent de l'indicatif`,
         link: 'https://www.youtube.com/watch?v=D4ktRrWUzCw',
         category: 'French',
-        playlist: '',
+        playlist: 'Verbs & Prepositions',
         copyright: '© 2015 Music & animation by Alain Le Lait',
     },
     {
@@ -2952,7 +2952,7 @@ export const videos = [
         title: `Verbe Avoir - Présent de l'indicatif`,
         link: 'https://www.youtube.com/watch?v=MnUWNIN3zss',
         category: 'French',
-        playlist: '',
+        playlist: 'Verbs & Prepositions',
         copyright: '© 2015 Music & animation by Alain Le Lait',
     },
     {
@@ -2960,7 +2960,7 @@ export const videos = [
         title: `Verbe Être - Présent de l'indicatif`,
         link: 'https://www.youtube.com/watch?v=z2IrJ0DB0Xg',
         category: 'French',
-        playlist: '',
+        playlist: 'Verbs & Prepositions',
         copyright: '© 2014 Music & animation by Alain Le Lait',
     },
     {
@@ -2968,15 +2968,15 @@ export const videos = [
         title: `Hot Dog Interpretive Dance # 387`,
         link: 'https://www.youtube.com/watch?v=BTJYPpAIZXo',
         category: 'Instrumental',
-        playlist: '',
+        playlist: 'Adult',  
         copyright: '© 2014 Music & animation by Alain Le Lait',
     },
     {
         id: 126,
-        title: `Verbe en er - Présent de l'indicatif`,
+        title: `Verbe Parler (en er) - Présent de l'indicatif`,
         link: 'https://www.youtube.com/watch?v=pc7fnFdWNkk',
         category: 'French',
-        playlist: '',
+        playlist: [ 'Verbs & Prepositions', 'Adjectifs Posessifs'],
         copyright: '© 2014 Music & animation by Alain Le Lait',
     },
     {
@@ -2984,7 +2984,7 @@ export const videos = [
         title: `Joyeux Anniversaire`,
         link: 'https://www.youtube.com/watch?v=g8l1TfnAvWw',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2014 Music & animation by Alain Le Lait',
     },
     {
@@ -2992,7 +2992,7 @@ export const videos = [
         title: `Ma Famille`,
         link: 'https://www.youtube.com/watch?v=MFk9YmJv-jc',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2014 Music & animation by Alain Le Lait',
     },
     {
@@ -3000,7 +3000,7 @@ export const videos = [
         title: `Dans Ma Chambre`,
         link: 'https://www.youtube.com/watch?v=CUAsT_mI5TY',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2013 Music & animation by Alain Le Lait',
     },
     {
@@ -3008,7 +3008,7 @@ export const videos = [
         title: `Les Chiffres et les Nombres de 1 à 20 (French Numbers)`,
         link: 'https://www.youtube.com/watch?v=UsEz58BblMY',
         category: 'French',
-        playlist: '',
+        playlist: 'Learning Numbers',
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3016,7 +3016,7 @@ export const videos = [
         title: `Frère Jacques`,
         link: 'https://www.youtube.com/watch?v=kKSWPQgXcY4',
         category: 'French',
-        playlist: '',
+        playlist: 'French Traditional Songs',
         copyright: '© 2013 Music & animation by Alain Le Lait',
     },
     {
@@ -3024,7 +3024,7 @@ export const videos = [
         title: `J'aime les Fruits`,
         link: 'https://www.youtube.com/watch?v=nJ03KjwiIVM',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2013 Music & animation by Alain Le Lait',
     },
     {
@@ -3032,7 +3032,7 @@ export const videos = [
         title: `Au Clair De La Lune`,
         link: 'https://www.youtube.com/watch?v=CynKwMmxhNo',
         category: 'French',
-        playlist: '',
+        playlist: 'French Traditional Songs',
         copyright: '© 2013 Music & animation by Alain Le Lait',
     },
     {
@@ -3040,7 +3040,7 @@ export const videos = [
         title: `Les Mois de l'Année`,
         link: 'https://www.youtube.com/watch?v=7_u2SigckNQ',
         category: 'French',
-        playlist: '',
+        playlist: [ 'Days & Months', 'Vocab' ],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3048,7 +3048,7 @@ export const videos = [
         title: `Avec un Gros Nez`,
         link: 'https://www.youtube.com/watch?v=Ub-V1n6zpQE',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3056,7 +3056,7 @@ export const videos = [
         title: `Numbers 1 to 10 Song`,
         link: 'https://www.youtube.com/watch?v=fWxVnrgu91s',
         category: 'English',
-        playlist: '',
+        playlist: [ 'Learning Numbers', 'English Songs' ],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3064,7 +3064,7 @@ export const videos = [
         title: `I Have a Car`,
         link: 'https://www.youtube.com/watch?v=T8Qg1--N9w8',
         category: 'English',
-        playlist: '',
+        playlist: [ 'Colors', 'English Songs' ],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3072,7 +3072,7 @@ export const videos = [
         title: `J'aime les Voitures`,
         link: 'https://www.youtube.com/watch?v=IaaSprb0IXk',
         category: 'French',
-        playlist: '',
+        playlist: [ 'Colors', 'Vocab' ],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3080,7 +3080,7 @@ export const videos = [
         title: `Assis, Debout`,
         link: 'https://www.youtube.com/watch?v=HqvL_ZdOAxs',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3088,7 +3088,7 @@ export const videos = [
         title: `Hello!`,
         link: 'https://www.youtube.com/watch?v=eECBSFwNtp0',
         category: 'English',
-        playlist: '',
+        playlist: 'English Songs',
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3096,15 +3096,15 @@ export const videos = [
         title: `Bonjour, Bonjour!`,
         link: 'https://www.youtube.com/watch?v=atNkI6QFZ50',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
         id: 142,
-        title: `Des Os, Il en Faut `,
+        title: `Des Os, Il en Fait`,
         link: 'https://www.youtube.com/watch?v=bChrAwLzoSo',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3112,7 +3112,7 @@ export const videos = [
         title: `Les Jours de la Semaine`,
         link: 'https://www.youtube.com/watch?v=Lpwf5N0rfVE',
         category: 'French',
-        playlist: '',
+        playlist: [ 'Days & Months', 'Vocab' ],
         copyright: '© 2013 Music & animation by Alain Le Lait',
     },
     {
@@ -3120,7 +3120,7 @@ export const videos = [
         title: `The Days of the Week`,
         link: 'https://www.youtube.com/watch?v=zxZ7UepsgR0',
         category: 'English',
-        playlist: '',
+        playlist: [ 'Days & Months', 'English Songs' ]
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3128,7 +3128,7 @@ export const videos = [
         title: `Alouette, Gentille Alouette`,
         link: 'https://www.youtube.com/watch?v=L_hFw_cWg9U',
         category: 'French',
-        playlist: '',
+        playlist: 'French Traditional Songs',
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3136,7 +3136,7 @@ export const videos = [
         title: `L'alphabet en Français`,
         link: 'https://www.youtube.com/watch?v=_LYy3P2okyw',
         category: 'French',
-        playlist: '',
+        playlist: 'Vocab',
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3144,47 +3144,47 @@ export const videos = [
         title: `Arc-en-ciel`,
         link: 'https://www.youtube.com/watch?v=-4kNeFGBAcw',
         category: 'French',
-        playlist: '',
+        playlist: [ 'Colors', 'Vocab'],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
         id: 148,
         title: `San Francisco Bay Blues (Jesse Fuller)`,
         link: 'https://www.youtube.com/watch?v=biUCZ1Avbfk',
-        category: 'Alain',
-        playlist: '',
+        category: 'Adult',
+        playlist: [ 'Alain Le Lait Live', 'Adult' ],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
         id: 149,
         title: `Deep River Blues (Doc Watson)`,
         link: 'https://www.youtube.com/watch?v=g8rpWVI_8Yc',
-        category: 'Alain',
-        playlist: '',
+        category: 'Adult',
+        playlist: [ 'Alain Le Lait Live', 'Adult' ],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
         id: 150,
         title: `Beaucoup Trop de Cons`,
         link: 'https://www.youtube.com/watch?v=--rm_9vWTGs',
-        category: 'Alain',
-        playlist: '',
+        category: 'Adult',
+        playlist: [ 'Alain Le Lait Live', 'Adult' ],
         copyright: '© 2010 Music & animation by Alain Le Lait',
     },
     {
         id: 151,
         title: `Tes Yeux Bleus`,
         link: 'https://www.youtube.com/watch?v=ZUYX0Hj0N-4',
-        category: 'Espadrilles',
-        playlist: '',
+        category: 'Adult',
+        playlist: [ 'Espadrilles', 'Alain Le Lait Live', 'Adult' ],
         copyright: '© 2010 Music & animation by Alain Le Lait',
     },
     {
         id: 152,
         title: `Espadrilles`,
         link: 'https://www.youtube.com/watch?v=4xIVRSMTP2k',
-        category: 'Espadrilles',
-        playlist: '',
+        category: 'Adult',
+        playlist: [ 'Espadrilles', 'Alain Le Lait Live', 'Adult' ],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
 
