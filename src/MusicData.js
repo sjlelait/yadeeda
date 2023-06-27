@@ -2822,7 +2822,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/kUs7m4KSjmY',
         regularLink: 'https://www.youtube.com/watch?v=kUs7m4KSjmY',
         category: 'French',
-        playlist: [ 'Verbs & Prepositions', 'Adjectifs Possessifs'],
+        playlists: [
+            { name: 'Verbs & Prepositions' },
+            { name: 'Adjectifs Posessifs' }
+          ],
         copyright: '© 2018 Music & animation by Alain Le Lait',
     },
     {
@@ -2894,7 +2897,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/npniUd2M_vI',
         regularLink: 'https://www.youtube.com/watch?v=npniUd2M_vI',
         category: 'French',
-        playlist: [ 'Verbs & Prepositions', 'Vocab' ],
+        playlists: [
+            { name: 'Verbs & Prepositions' },
+            { name: 'Vocab' }
+          ],
         copyright: '© 2017 Music & animation by Alain Le Lait',
     },
     {
@@ -2930,7 +2936,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/o10yePAGNJk',
         regularLink: 'https://www.youtube.com/watch?v=o10yePAGNJk',
         category: 'Zoey',
-        playlist: [ 'Zoey & the Yok Yok Man', 'English Songs' ],
+        playlists: [
+            { name: 'Zoey & the Yok Yok Man' },
+            { name: 'English Songs' }
+          ],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
     {
@@ -2939,7 +2948,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/YrSgvJm79Yc',
         regularLink: 'https://www.youtube.com/watch?v=YrSgvJm79Yc',
         category: 'Zoey',
-        playlist: [ 'Zoey & the Yok Yok Man', 'English Songs' ],
+        playlists: [
+            { name: 'Zoey & the Yok Yok Man' },
+            { name: 'English Songs' }
+          ],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
     {
@@ -2948,7 +2960,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/M2BttB7Z2pc',
         regularLink: 'https://www.youtube.com/watch?v=M2BttB7Z2pc',
         category: 'Zoey',
-        playlist: [ 'Zoey & the Yok Yok Man', 'English Songs' ],
+        playlists: [
+            { name: 'Zoey & the Yok Yok Man' },
+            { name: 'English Songs' }
+          ],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
     {
@@ -3003,6 +3018,10 @@ export const videos = [
         regularLink: 'https://www.youtube.com/watch?v=pc7fnFdWNkk',
         category: 'French',
         playlist: [ 'Verbs & Prepositions', 'Adjectifs Posessifs'],
+        playlists: [
+            { name: 'Verbs & Prepositions' },
+            { name: 'Adjectifs Posessifs' }
+          ],
         copyright: '© 2014 Music & animation by Alain Le Lait',
     },
     {
@@ -3074,7 +3093,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/7_u2SigckNQ',
         regularLink: 'https://www.youtube.com/watch?v=7_u2SigckNQ',
         category: 'French',
-        playlist: [ 'Days & Months', 'Vocab' ],
+        playlists: [
+            { name: 'Days & Months' },
+            { name: 'Vocab' }
+          ],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3092,7 +3114,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/fWxVnrgu91s',
         regularLink: 'https://www.youtube.com/watch?v=fWxVnrgu91s',
         category: 'English',
-        playlist: [ 'Learning Numbers', 'English Songs' ],
+        playlists: [
+            { name: 'Learning Numbers' },
+            { name: 'English Songs' }
+          ],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3101,7 +3126,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/T8Qg1--N9w8',
         regularLink: 'https://www.youtube.com/watch?v=T8Qg1--N9w8',
         category: 'English',
-        playlist: [ 'Colors', 'English Songs' ],
+        playlists: [
+            { name: 'Colors' },
+            { name: 'English Songs' }
+          ],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3110,7 +3138,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/IaaSprb0IXk',
         regularLink: 'https://www.youtube.com/watch?v=IaaSprb0IXk',
         category: 'French',
-        playlist: [ 'Colors', 'Vocab' ],
+        playlists: [
+            { name: 'Colors' },
+            { name: 'Vocab' }
+          ],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3155,7 +3186,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/Lpwf5N0rfVE',
         regularLink: 'https://www.youtube.com/watch?v=Lpwf5N0rfVE',
         category: 'French',
-        playlist: [ 'Days & Months', 'Vocab' ],
+        playlists: [
+            { name: 'Days & Months' },
+            { name: 'Vocab' }
+          ],
         copyright: '© 2013 Music & animation by Alain Le Lait',
     },
     {
@@ -3164,7 +3198,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/zxZ7UepsgR0',
         regularLink: 'https://www.youtube.com/watch?v=zxZ7UepsgR0',
         category: 'English',
-        playlist: [ 'Days & Months', 'English Songs' ],
+        playlists: [
+            { name: 'Days & Months' },
+            { name: 'English Songs' }
+          ],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3191,7 +3228,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/-4kNeFGBAcw',
         regularLink: 'https://www.youtube.com/watch?v=-4kNeFGBAcw',
         category: 'French',
-        playlist: [ 'Colors', 'Vocab'],
+        playlists: [
+            { name: 'Colors' },
+            { name: 'Vocab' }
+          ],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3200,7 +3240,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/biUCZ1Avbfk',
         regularLink: 'https://www.youtube.com/watch?v=biUCZ1Avbfk',
         category: 'Adult',
-        playlist: [ 'Alain Le Lait Live', 'Adult' ],
+        playlists: [
+            { name: 'Alain Le Lait Live' },
+            { name: 'Adult' }
+          ],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3209,7 +3252,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/g8rpWVI_8Yc',
         regularLink: 'https://www.youtube.com/watch?v=g8rpWVI_8Yc',
         category: 'Adult',
-        playlist: [ 'Alain Le Lait Live', 'Adult' ],
+        playlists: [
+            { name: 'Alain Le Lait Live' },
+            { name: 'Adult' }
+          ],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3218,7 +3264,10 @@ export const videos = [
         link: 'https://www.youtube.com/embed/--rm_9vWTGs',
         regularLink: 'https://www.youtube.com/watch?v=--rm_9vWTGs',
         category: 'Adult',
-        playlist: [ 'Alain Le Lait Live', 'Adult' ],
+        playlists: [
+            { name: 'Alain Le Lait Live' },
+            { name: 'Adult' }
+          ],
         copyright: '© 2010 Music & animation by Alain Le Lait',
     },
     {
@@ -3227,7 +3276,11 @@ export const videos = [
         link: 'https://www.youtube.com/embed/ZUYX0Hj0N-4',
         regularLink: 'https://www.youtube.com/watch?v=ZUYX0Hj0N-4',
         category: 'Adult',
-        playlist: [ 'Espadrilles', 'Alain Le Lait Live', 'Adult' ],
+        playlists: [
+            { name: 'Espadrilles' },
+            { name: 'Alain Le Lait Live' },
+            { name: 'Adult' }
+          ],
         copyright: '© 2010 Music & animation by Alain Le Lait',
     },
     {
@@ -3236,7 +3289,11 @@ export const videos = [
         link: 'https://www.youtube.com/embed/4xIVRSMTP2k',
         regularLink: 'https://www.youtube.com/watch?v=4xIVRSMTP2k',
         category: 'Adult',
-        playlist: [ 'Espadrilles', 'Alain Le Lait Live', 'Adult' ],
+        playlists: [
+            { name: 'Espadrilles' },
+            { name: 'Alain Le Lait Live' },
+            { name: 'Adult' }
+          ],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
 
