@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import VideoList from '../components/VideoList';
 import { videos } from '../MusicData';
+import Playlist from '../components/Playlist';
 
 const Videos = (props) => {
   const [selectedPlaylist, setSelectedPlaylist] = useState(null);
@@ -26,19 +27,11 @@ const Videos = (props) => {
   return (
     <div>
       <h1>Yadeeda Videos</h1>
-      <div>
-        {playlists.map((playlist, index) => (
-          <button
-            key={index}
-            onClick={() => setSelectedPlaylist(playlist)}
-            className={`px-2 py-1 mx-1 rounded ${
-              selectedPlaylist === playlist ? 'bg-gray-500 text-white' : 'bg-gray-200'
-            }`}
-          >
-            {playlist}
-          </button>
-        ))}
-      </div>
+        <Playlist
+            playlists={playlists}
+            selectedPlaylist={selectedPlaylist}
+            setSelectedPlaylist={setSelectedPlaylist}
+        />
       <VideoList videos={filteredVideos} />
     </div>
   );
