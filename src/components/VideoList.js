@@ -10,6 +10,7 @@ const VideoList = ({ videos }) => {
             key={index}
             title={video.title}
             link={video.link}
+            regularLink={video.regularLink}
             copyright={video.copyright}
           />
         ))}
