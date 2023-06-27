@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeCard = ({ title, image, description, link, bgColor }) => {
   return (
-    <div className={`rounded-lg shadow-lg p-4 m-5 ${bgColor} flex flex-wrap md:flex-no-wrap`} style={{ width: '300px' }}>
+    <div className={`rounded-lg shadow-lg p-4 m-5 ${bgColor} flex flex-col md:flex-no-wrap`} style={{ width: '300px' }}>
       <div className="flex flex-col h-full">
         {image && (
           <img src={image} alt={title} className="w-full h-32 object-cover mb-4 rounded" />
