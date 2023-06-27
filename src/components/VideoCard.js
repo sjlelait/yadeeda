@@ -13,15 +13,11 @@ return (
                 ></iframe>
             </div>
             <div className="p-4">
-                {regularLink ? (
                 <h2 className="text-lg font-semibold">
-                <a href={regularLink} target="_blank" rel="noopener noreferrer">
-                    {title}
-                </a>
+                    <a href={regularLink} target="_blank" rel="noopener noreferrer">
+                        {title}
+                    </a>
                 </h2>
-            ) : (
-                <h2 className="text-lg font-semibold">{title}</h2>
-            )}
                 <p className="text-gray-600">{copyright}</p>
             </div>
         </div>
