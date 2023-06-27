@@ -1,9 +1,14 @@
 import React from 'react';
+import VideoList from '../components/VideoList';
+import {videos} from '../MusicData';
 
 const Videos = (props) => {
     return (
-        <h1>Embedded Videos Here</h1>
-    )
-}
+    <div>
+        <h1>Yadeeda Videos</h1>
+        <VideoList videos={videos} />
+    </div>
+    );
+};
 
 export default Videos;
