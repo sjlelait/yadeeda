@@ -15,7 +15,7 @@ const VideoList = ({ videos }) => {
 
     return (
     <div>
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
         {currentVideos.map((video, index) => (
           <VideoCard
             key={index}
