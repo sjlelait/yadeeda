@@ -1,17 +1,29 @@
 import React, { useState } from 'react';
 import VideoList from '../components/VideoList';
-import {videos} from '../MusicData';
+import { videos } from '../MusicData';
 
 const Videos = (props) => {
-    const [selectedPlaylist, setSelectedPlaylist] = useState(null);
+  const [selectedPlaylist, setSelectedPlaylist] = useState(null);
 
-    const filteredVideos = selectedPlaylist
-        ? videos.filter((video) => video.playlist === selectedPlaylist)
-        : videos;
+  const filteredVideos = selectedPlaylist
+    ? videos.filter((video) => {
+        if (Array.isArray(video.playlists)) {
+          return video.playlists.some((playlist) => playlist === selectedPlaylist);
+        } else {
+          return video.playlists === selectedPlaylist;
+        }
+      })
+    : videos;
 
-    const playlists = [...new Set(videos.map((video) => video.playlist))];
+  const playlists = [...new Set(videos.flatMap((video) => {
+    if (Array.isArray(video.playlists)) {
+      return video.playlists;
+    } else {
+      return [video.playlists];
+    }
+  }))];
 
-    return (
+  return (
     <div>
       <h1>Yadeeda Videos</h1>
       <div>
@@ -29,7 +41,7 @@ const Videos = (props) => {
       </div>
       <VideoList videos={filteredVideos} />
     </div>
-    );
+  );
 };
 
 export default Videos;
