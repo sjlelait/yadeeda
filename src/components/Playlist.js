@@ -7,7 +7,7 @@ const Playlist = ({ playlists, selectedPlaylist, setSelectedPlaylist }) => {
   };
 
   return (
-    <div className="flex flex-col items-center m-2">
+    <div className="flex flex-col items-center mt-2 mb-5">
         <div className="mb-1">
             <h2 className="text-lg font-bold">Playlists:</h2>
         </div>

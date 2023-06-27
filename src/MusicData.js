@@ -3038,7 +3038,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/UsEz58BblMY',
         regularLink: 'https://www.youtube.com/watch?v=UsEz58BblMY',
         category: 'French',
-        playlists: 'Learning Numbers',
+        playlists: ['Learning Numbers', '10 Most Popular Videos'],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3056,7 +3056,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/nJ03KjwiIVM',
         regularLink: 'https://www.youtube.com/watch?v=nJ03KjwiIVM',
         category: 'French',
-        playlists: 'Vocab',
+        playlists: ['Vocab', '10 Most Popular Videos'],
         copyright: '© 2013 Music & animation by Alain Le Lait',
     },
     {
@@ -3074,7 +3074,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/7_u2SigckNQ',
         regularLink: 'https://www.youtube.com/watch?v=7_u2SigckNQ',
         category: 'French',
-        playlists: ['Days & Months','Vocab'],
+        playlists: ['Days & Months','Vocab', '10 Most Popular Videos'],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3137,16 +3137,16 @@ export const videos = [
         link: 'https://www.youtube.com/embed/atNkI6QFZ50',
         regularLink: 'https://www.youtube.com/watch?v=atNkI6QFZ50',
         category: 'French',
-        playlists: 'Vocab',
+        playlists: ['Vocab', '10 Most Popular Videos'],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
         id: 142,
-        title: `Des Os, Il en Fait`,
+        title: `Les Parties du Corps`,
         link: 'https://www.youtube.com/embed/bChrAwLzoSo',
         regularLink: 'https://www.youtube.com/watch?v=bChrAwLzoSo',
         category: 'French',
-        playlists: 'Vocab',
+        playlists: ['Vocab', '10 Most Popular Videos'],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3155,7 +3155,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/Lpwf5N0rfVE',
         regularLink: 'https://www.youtube.com/watch?v=Lpwf5N0rfVE',
         category: 'French',
-        playlists: ['Days & Months','Vocab'],
+        playlists: ['Days & Months','Vocab', '10 Most Popular Videos'],
         copyright: '© 2013 Music & animation by Alain Le Lait',
     },
     {
@@ -3173,7 +3173,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/L_hFw_cWg9U',
         regularLink: 'https://www.youtube.com/watch?v=L_hFw_cWg9U',
         category: 'French',
-        playlists: 'French Traditional Songs',
+        playlists: ['French Traditional Songs', '10 Most Popular Videos'],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3182,7 +3182,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/_LYy3P2okyw',
         regularLink: 'https://www.youtube.com/watch?v=_LYy3P2okyw',
         category: 'French',
-        playlists: 'Vocab',
+        playlists: ['Vocab', '10 Most Popular Videos'],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3191,7 +3191,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/-4kNeFGBAcw',
         regularLink: 'https://www.youtube.com/watch?v=-4kNeFGBAcw',
         category: 'French',
-        playlists: ['Colors', 'Vocab'],
+        playlists: ['Colors', 'Vocab', '10 Most Popular Videos'],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -3238,6 +3238,15 @@ export const videos = [
         category: 'Adult',
         playlists: ['Espadrilles', 'Alain Live','Adult'],
         copyright: '© 2009 Music & animation by Alain Le Lait',
+    },
+    {
+        id: 153,
+        title: `English Alphabet`,
+        link: 'https://www.youtube.com/embed/hNNpp0xJe50',
+        regularLink: 'https://www.youtube.com/watch?v=hNNpp0xJe50',
+        category: 'English',
+        playlists: ['English', '10 Most Popular Videos'],
+        copyright: '© 2011 Music & animation by Alain Le Lait',
     },
 
 ]
