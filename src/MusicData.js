@@ -580,7 +580,6 @@ export const songs = [
         
         (Répétez depuis le début)`,
         english: `It has a very long neck
-
         It has big knees
         It has spots everywhere
         It doesn’t like owls, ooh
@@ -686,8 +685,7 @@ export const songs = [
         titleF: `Pourquoi Fait-il ce Bruit La?`,
         album: `Parapluie`,
         french: `Mon estomac fait un bruit étrange
-        Quand je bois du lait ou
-        
+        Quand je bois du lait ou        
         quand je mange
         Du gâteau au chocolat,
         
@@ -718,8 +716,7 @@ export const songs = [
         Mon ventre fait ce bruit la
         Je ne comprends pas`,
         english: `My stomach makes a funny noise
-        When I drink milk or
-        
+        When I drink milk or        
         when I eat
         Chocolate cake,
         
@@ -1780,17 +1777,14 @@ export const songs = [
         On Wednesday I brush my teeth 
         And of course, on Thursday too
         
-        It’s because I want to have
-        
+        It’s because I want to have        
         white teeth
-        That I brush them in the morning and
-        
-         in the evening
-        And when I brush my teeth
-        
+        That I brush them in the morning and        
+        in the evening
+
+        And when I brush my teeth        
         I feel good
-        Because my teeth are really
-        
+        Because my teeth are really        
         nice to look at,
         Oh yes
         
@@ -1799,17 +1793,14 @@ export const songs = [
         On Sunday I brush my teeth
         And all week long I smile
         
-        It’s because I want to have
-        
+        It’s because I want to have        
         white teeth
-        That I brush them in the morning and
-        
+        That I brush them in the morning and        
         in the evening
-        And when I brush my teeth
-        
+
+        And when I brush my teeth        
         I feel good
-        Because my teeth are really
-        
+        Because my teeth are really        
         nice to look at,
         Oh yes`,
         copyright: '© 2003 Alain Le Lait',
@@ -2392,7 +2383,6 @@ export const songs = [
         titleF: `Parapluie`,
         album: `Parapluie`,
         french: `Il pleut, il pleut
-
         La pluie tombe autour de moi
         Mais je suis à l'abri
         Sous mon parapluie 
@@ -2425,7 +2415,6 @@ export const songs = [
         Il pleut - Car j'aime la pluie
         Même quand je n'ai pas de parapluie`,
         english: `It's raining, it's raining
-
         Rain is falling all around me
         But I have a shelter
         Under my umbrella

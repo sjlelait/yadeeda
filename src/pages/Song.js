@@ -12,20 +12,24 @@ const Song = () => {
             {song.titleF ? (
             <div className="flex justify-between">
                 <div className="w-1/2 pr-4">
-                <h2>{song.titleF}</h2>
-                <p>{song.copyright}</p>
-                <p>{song.french}</p>
+                <h1 className="text-xl font-bold">{song.titleF}</h1>
+                <p className="text-gray-500">{song.copyright}</p>
+                <br />
+                <p style={{ whiteSpace: 'pre-line' }}>{song.french}</p>
                 </div>
                 <div className="w-1/2 pl-4">
-                <h2>{song.titleE}</h2>
-                {song.english && <p>{song.english}</p>}
+                <h1 className="text-xl font-bold">{song.titleE}</h1>
+                <p className="text-gray-500">{song.copyright}</p>
+                <br />
+                {song.english && <p style={{ whiteSpace: 'pre-line' }}>{song.english}</p>}
                 </div>
             </div>
             ) : (
             <div className="text-center">
-                <h2>{song.titleE}</h2>
-                <p>{song.copyright}</p>
-                {song.english && <p>{song.english}</p>}
+                <h1 className="text-xl font-bold">{song.titleE}</h1>
+                <p className="text-gray-500">{song.copyright}</p>
+                <br />
+                {song.english && <p style={{ whiteSpace: 'pre-line' }}>{song.english}</p>}
             </div>
             )}
         </div>
