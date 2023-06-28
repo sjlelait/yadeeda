@@ -42,7 +42,7 @@ const Home = (props) => {
     cardData[0].videoLink = getRandomVideo();  
         
     return (
-        <div className="flex flex-col md:flex-row items-center">
+        <div className="flex flex-col md:flex-row items-center justify-center">
             {cardData.map((card, index) => (
                 <HomeCard 
                     key={index} 

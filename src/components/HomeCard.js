@@ -4,7 +4,7 @@ const HomeCard = ({ title, image, description, link, video, bgColor }) => {
   const isExternalLink = link && link.startsWith('http');
   
   return (
-    <div className={`rounded-lg shadow-lg p-4 m-5 ${bgColor} flex flex-col md:flex-no-wrap`} style={{ width: '300px' }}>
+    <div className={`rounded-lg shadow-lg p-4 m-5 ${bgColor} flex flex-col md:flex-no-wrap`} style={{ width: '300px', minHeight: '450px' }}>
       <div className="flex flex-col h-full">
         {image && (
           <img src={image} alt={title} className="w-full h-32 object-contain mb-1 rounded" />
