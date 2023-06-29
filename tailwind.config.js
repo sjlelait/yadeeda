@@ -6,7 +6,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        
+        ydlightBlue: '#14CEE3',
+        ydBlue: '#1680CC',
+        ydGreen: '#8AD62D',
+        ydRed: '#F24730',
+        ydYellow: '#FCBB2D',
+        ydPurple: '#6218C9',                
+        YouTubeRed: '#FF0000',
+        buttonLight: '#F2F2F2',
       }
     },
   },

@@ -42,7 +42,7 @@ const HomeCard = ({ title, image, description, link, video, bgColor }) => {
               href={link}
               target={isExternalLink ? '_blank' : undefined}
               rel={isExternalLink ? 'noopener noreferrer' : undefined}
-              className="bg-orange-500 text-white py-2 mt-5 inline-block rounded"
+              className="bg-buttonLight py-2 mt-5 inline-block rounded w-28 mx-auto"
             >
               Let's Go!
             </a>
