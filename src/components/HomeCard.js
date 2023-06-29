@@ -4,15 +4,27 @@ const HomeCard = ({ title, image, description, link, video, bgColor }) => {
   const isExternalLink = link && link.startsWith('http');
   
   return (
-    <div className={`rounded-lg shadow-lg p-4 m-5 ${bgColor} flex flex-col md:flex-no-wrap`} style={{ width: '300px', minHeight: '450px' }}>
-      <div className="flex flex-col h-full">
-        {image && (
-          <img src={image} alt={title} className="w-full h-32 object-contain mb-1 rounded" />
-        )}
+    <div className={`rounded-lg shadow-lg p-4 m-5 ${bgColor} flex flex-col md:flex-no-wrap`} style={{ width: '300px', minHeight: '400px' }}>
+      <div className="flex flex-col h-full">        
         <div className="flex flex-col justify-between flex-grow">
           <div>
-            {title && <h2 className="text-xl font-bold mb-2">{title}</h2>}
-            {description && <p>{description}</p>}
+            {title && <h2 className="text-xl font-bold mb-3">{title}</h2>}
+            {image && (
+              <img src={image} alt={title} className="w-full h-32 object-contain mb-1 rounded" />
+            )}
+            {description && (
+              <>
+                {title === 'Teaching Resources' ? (
+                  <ul className="list-disc list-inside leading-loose text-left mt-6 mb-4 ml-3">
+                    {description.split(',').map((item, index) => (
+                      <li key={index}>{item.trim()}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p>{description}</p>
+                )}
+              </>
+            )}
           </div>
           {video && (
             <div className="mt-4">
@@ -21,7 +33,6 @@ const HomeCard = ({ title, image, description, link, video, bgColor }) => {
                 src={video}
                 width="100%"
                 height="200"
-                frameBorder="0"
                 allowFullScreen
               ></iframe>
             </div>

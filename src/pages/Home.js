@@ -2,6 +2,7 @@ import React from 'react';
 import HomeCard from '../components/HomeCard';
 import { videos } from '../MusicData';
 import SesameStreet from '../assets/SesameStreet.png';
+import Kids from '../assets/kids-img.png';
 
 const Home = (props) => {
     const filteredVideos = videos.filter(
@@ -18,22 +19,22 @@ const Home = (props) => {
         {
             title: 'Video of the Day',
             image: null,
-            description: null,
+            description: 'Click below to visit our YouTube Channel for more!',
             link: 'https://www.youtube.com/@tialela99',
             video: getRandomVideo(),
             bgColor: 'bg-red-500',
         },
         {
-            title: 'Sesame Street',
+            title: null,
             image: SesameStreet,
             description: 'Yadeeda is on Sesame Street! Alain Le Lait\'s popular song "Sit Down, Stand Up" can now be heard on episode #4135 (The Bookaneers), the French version "Assis, Debout" is in episode #4151 (Slimey competes for the Worm Cup).',
             link: 'https://muppet.fandom.com/wiki/Episode_4135',
             bgColor: 'bg-yellow-500',
         },
         {
-            title: '10 Reasons to use our songs',
-            image: null,
-            description: '1. one of the best ways to introduce a new language',
+            title: 'Teaching Resources',
+            image: Kids,
+            description: '10 Reasons for Using Our Songs, Links We Like, Resources for Learning',
             link: '/resources',
             bgColor: 'bg-green-500',
         },

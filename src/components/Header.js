@@ -58,12 +58,12 @@ const Header = (props) => {
                             About Us
                         </Link>
                         <Link 
-                            to="/links" 
+                            to="/resources" 
                             className="text-md font-semibold mr-6 leading-6 text-gray-900"
                             onClick={closeMobileMenu}
                         >
-                            <span className="sr-only">Links We Like</span>
-                            Links We Like
+                            <span className="sr-only">Resources</span>
+                            Resources
                         </Link>
                         <Link 
                             to="/contact" 
