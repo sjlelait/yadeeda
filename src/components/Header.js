@@ -13,7 +13,7 @@ const Header = (props) => {
       };
 
     return (
-        <header className="bg-white">
+        <header className="bg-ydLightBlue">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-6" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <Link to="/" className="-m-1.5 p-1.5">

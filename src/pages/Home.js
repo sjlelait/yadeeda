@@ -3,6 +3,7 @@ import HomeCard from '../components/HomeCard';
 import { videos } from '../MusicData';
 import SesameStreet from '../assets/SesameStreet.png';
 import Kids from '../assets/kids-img.png';
+import Logo from '../assets/YadeedaLogo.png';
 
 const Home = (props) => {
     const filteredVideos = videos.filter(
@@ -43,19 +44,24 @@ const Home = (props) => {
     cardData[0].videoLink = getRandomVideo();  
         
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center">
-            {cardData.map((card, index) => (
-                <HomeCard 
-                    key={index} 
-                    title={card.title} 
-                    image={card.image} 
-                    description={card.description}
-                    link={card.link}
-                    video={card.video}
-                    bgColor={card.bgColor}
-                />
-            ))}
-        </div>
+        <div className="flex flex-col items-center">
+            <h1 className="text-3xl font-bold mt-2">Master the Art of Speaking French</h1>
+            <img src={Logo} alt="Yadeeda Logo" className="w-48 h-auto sm:w-64 md:w-80 lg:w-96" />
+            <p className="mb-2 text-xl">Fun songs in French & English for all ages</p>
+                <div className="flex flex-col md:flex-row items-center justify-center">
+                    {cardData.map((card, index) => (
+                        <HomeCard 
+                            key={index} 
+                            title={card.title} 
+                            image={card.image} 
+                            description={card.description}
+                            link={card.link}
+                            video={card.video}
+                            bgColor={card.bgColor}
+                        />
+                    ))}
+                </div>
+            </div>
     )
 }
 
