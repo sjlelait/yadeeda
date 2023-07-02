@@ -16,7 +16,7 @@ const Header = (props) => {
         <header className="bg-ydLightBlue">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-6" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <Link to="/" className="-m-1.5 p-1.5">
+                    <Link to="/" className="-m-1.5 p-1.5 font-homeP text-xl">
                         <span className="sr-only">Yadeeda</span>
                         Yadeeda
                     </Link>
@@ -33,46 +33,56 @@ const Header = (props) => {
                 </div>
                 <Popover.Group className="hidden lg:flex lg:gap-x-18">
                     <Popover className="relative">
-                        <Link 
-                            to="/" 
-                            className="text-md font-semibold mr-6 leading-6 text-gray-900"
-                            onClick={closeMobileMenu}
-                        >
-                            <span className="sr-only">Home</span>
-                            Home
-                        </Link>
-                        <Link 
-                            to="/music" 
-                            className="text-md font-semibold mr-6 leading-6 text-gray-900"
-                            onClick={closeMobileMenu}
-                        >
-                            <span className="sr-only">Music & Videos</span>
-                            Music & Videos
-                        </Link>
-                        <Link 
-                            to="/about" 
-                            className="text-md font-semibold mr-6 leading-6 text-gray-900"
-                            onClick={closeMobileMenu}
-                        >
-                            <span className="sr-only">About Us</span>
-                            About Us
-                        </Link>
-                        <Link 
-                            to="/resources" 
-                            className="text-md font-semibold mr-6 leading-6 text-gray-900"
-                            onClick={closeMobileMenu}
-                        >
-                            <span className="sr-only">Resources</span>
-                            Resources
-                        </Link>
-                        <Link 
-                            to="/contact" 
-                            className="text-md font-semibold mr-6 leading-6 text-gray-900"
-                            onClick={closeMobileMenu}
-                        >
-                            <span className="sr-only">Contact Us</span>
-                            Contact Us
-                        </Link>                    
+                        <div className="bg-ydRed inline-block rounded-lg h-10 pt-2 items-center">
+                            <Link 
+                                to="/"
+                                className="text-md font-semibold m-8 leading-6"
+                                onClick={closeMobileMenu}
+                            >
+                                <span className="sr-only">Home</span>
+                                Home
+                            </Link>
+                        </div>
+                        <div className="bg-ydYellow inline-block rounded-lg  h-10 pt-2 items-center">
+                            <Link 
+                                to="/music" 
+                                className="text-md font-semibold m-8 leading-6"
+                                onClick={closeMobileMenu}
+                            >
+                                <span className="sr-only">Music & Videos</span>
+                                Music & Videos
+                            </Link>
+                        </div>
+                        <div className="bg-ydGreen inline-block rounded-lg  h-10 pt-2 items-center">
+                            <Link 
+                                to="/about" 
+                                className="text-md font-semibold m-8 leading-6"
+                                onClick={closeMobileMenu}
+                            >
+                                <span className="sr-only">About Us</span>
+                                About Us
+                            </Link>
+                        </div>
+                        <div className="bg-ydBlue inline-block rounded-lg  h-10 pt-2 items-center">
+                            <Link 
+                                to="/resources" 
+                                className="text-md font-semibold m-8 leading-6 text-white"
+                                onClick={closeMobileMenu}
+                            >
+                                <span className="sr-only">Resources</span>
+                                Resources
+                            </Link>
+                        </div>
+                        <div className="bg-ydPurple inline-block rounded-lg  h-10 pt-2 items-center">
+                            <Link 
+                                to="/contact" 
+                                className="text-md font-semibold m-8 leading-6 text-white"
+                                onClick={closeMobileMenu}
+                            >
+                                <span className="sr-only">Contact Us</span>
+                                Contact Us
+                            </Link>
+                        </div>                    
                     </Popover>
                 </Popover.Group>
                 <Dialog 
