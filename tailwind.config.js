@@ -16,6 +16,9 @@ module.exports = {
         buttonLight: '#F2F2F2',
       }
     },
+    fontFamily: {
+      homeP: ['Comic Sans MS', 'cursive']
+    }
   },
   plugins: [],
 }
