@@ -18,14 +18,14 @@ const Song = () => {
                         <p className="text-gray-700">(French Lyrics)</p>
                         <p className="text-gray-500">{song.copyright}</p>
                         <br />
-                        <p style={{ whiteSpace: 'pre-line' }}>{song.french}</p>
+                        <p style={{ whiteSpace: "pre-line" }}>{song.french}</p>
                     </div>
                     <div className="w-1/2 mt-12 md:pl-12 md:mt-0">
                         <h1 className="text-xl font-bold">{song.titleE}</h1>
                         <p className="text-gray-700">(English Lyrics)</p>
                         <p className="text-gray-500">{song.copyright}</p>
                         <br />
-                        {song.english && <p style={{ whiteSpace: 'pre-line' }}>{song.english}</p>}
+                        {song.english && <p style={{ whiteSpace: "pre-line" }}>{song.english}</p>}
                     </div>
                 </div>
                 ) : (
