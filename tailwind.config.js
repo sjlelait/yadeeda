@@ -14,6 +14,9 @@ module.exports = {
         ydPurple: '#6218C9',                
         YouTubeRed: '#FF0000',
         buttonLight: '#F2F2F2',
+        textGreen: '#659600',
+        textOrange: '#E67802',
+        textPurple: '#5416AB',
       }
     },
     fontFamily: {
