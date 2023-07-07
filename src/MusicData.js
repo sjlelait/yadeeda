@@ -3239,3 +3239,42 @@ export const videos = [
     },
 
 ]
+
+export const espadrilles = [
+    {
+        id: 200,
+        title: 'Le Centipede',
+        sample: require('./assets/Le-centipede.mp3'),
+        video: '',
+    },
+    {
+        id: 201,
+        title: 'Tes Yeux Bleus',
+        sample: require('./assets/Tes-yeux-bleus.mp3'),
+        video: '',
+    },
+    {
+        id: 202,
+        title: 'Espadrilles',
+        sample: require('./assets/Espadrilles.mp3'),
+        video: '',
+    },
+    {
+        id: 203,
+        title: `Je Te L'ai Dit Mille Fois`,
+        sample: require('./assets/Je-te-lai-dit-1000-fois.mp3'),
+        video: '',
+    },
+    {
+        id: 204,
+        title: `Y'a Ceux Qui En Ont`,
+        sample: require('./assets/Ya-ceux-qui-en-ont.mp3'),
+        video: '',
+    },
+    {
+        id: 205,
+        title: `La Giraffe et L'hippoptame`,
+        sample: require('./assets/La-girafe-et-lhippopotame.mp3'),
+        video: '',
+    },
+]

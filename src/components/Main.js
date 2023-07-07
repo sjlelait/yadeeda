@@ -8,6 +8,7 @@ import Songs from '../pages/Songs';
 import Song from '../pages/Song';
 import Videos from '../pages/Videos';
 import Resources from '../pages/Resources';
+import Espadrilles from '../pages/Espadrilles';
 
 function Main(props) {
     return (
@@ -22,6 +23,7 @@ function Main(props) {
                 <Route path='/songs' element={<Songs />} />
                 <Route path='/song/:id' element={<Song />} />
                 <Route path='/videos' element={<Videos />} />
+                <Route path='/espadrilles' element={<Espadrilles />} />
             </Routes>
         </main>
     )

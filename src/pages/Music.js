@@ -23,7 +23,7 @@ const Music = (props) => {
                     <img src={SongsFromVideosCover} alt='Songs From Videos' className="w-32 h-32 object-cover mb-2 md:w-48 md:h-48 rounded" />
                     <h3 className="text-lg font-semibold">Songs From Videos</h3>
                 </Link>
-                <Link to="" className="flex flex-col items-center mb-4">
+                <Link to="/espadrilles" className="flex flex-col items-center mb-4">
                     <img src={Espadrilles} alt='Espadrilles' className="w-32 h-32 object-cover mb-2 md:w-48 md:h-48 rounded" />
                     <h3 className="text-lg font-semibold">Adult Music</h3>
                 </Link>
