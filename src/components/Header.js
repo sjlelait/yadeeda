@@ -33,50 +33,50 @@ const Header = (props) => {
                 </div>
                 <Popover.Group className="hidden lg:flex lg:gap-x-18">
                     <Popover className="relative">
-                        <div className="bg-ydRed inline-block rounded-lg h-10 pt-2 items-center">
+                        <div className="bg-ydRed inline-block rounded-lg h-10 pt-2 mr-2 items-center">
                             <Link 
                                 to="/"
-                                className="text-md font-semibold m-8 leading-6"
+                                className="text-md font-semibold m-4 leading-6"
                                 onClick={closeMobileMenu}
                             >
                                 <span className="sr-only">Home</span>
                                 Home
                             </Link>
                         </div>
-                        <div className="bg-ydYellow inline-block rounded-lg  h-10 pt-2 items-center">
+                        <div className="bg-ydYellow inline-block rounded-lg  h-10 pt-2  mr-2 items-center">
                             <Link 
                                 to="/music" 
-                                className="text-md font-semibold m-8 leading-6"
+                                className="text-md font-semibold m-4 leading-6"
                                 onClick={closeMobileMenu}
                             >
                                 <span className="sr-only">Music & Videos</span>
                                 Music & Videos
                             </Link>
                         </div>
-                        <div className="bg-ydGreen inline-block rounded-lg  h-10 pt-2 items-center">
+                        <div className="bg-ydGreen inline-block rounded-lg  h-10 pt-2  mr-2 items-center">
                             <Link 
                                 to="/about" 
-                                className="text-md font-semibold m-8 leading-6"
+                                className="text-md font-semibold m-4 leading-6"
                                 onClick={closeMobileMenu}
                             >
                                 <span className="sr-only">About Us</span>
                                 About Us
                             </Link>
                         </div>
-                        <div className="bg-ydBlue inline-block rounded-lg  h-10 pt-2 items-center">
+                        <div className="bg-ydPurple inline-block rounded-lg  h-10 pt-2  mr-2 items-center">
                             <Link 
                                 to="/resources" 
-                                className="text-md font-semibold m-8 leading-6 text-white"
+                                className="text-md font-semibold m-4 leading-6 text-white"
                                 onClick={closeMobileMenu}
                             >
                                 <span className="sr-only">Resources</span>
                                 Resources
                             </Link>
                         </div>
-                        <div className="bg-ydPurple inline-block rounded-lg  h-10 pt-2 items-center">
+                        <div className="bg-ydBlue inline-block rounded-lg  h-10 pt-2  mr-2 items-center">
                             <Link 
                                 to="/contact" 
-                                className="text-md font-semibold m-8 leading-6 text-white"
+                                className="text-md font-semibold m-4 leading-6 text-white"
                                 onClick={closeMobileMenu}
                             >
                                 <span className="sr-only">Contact Us</span>
@@ -91,7 +91,7 @@ const Header = (props) => {
                     open={mobileMenuOpen} 
                     onClose={() => setMobileMenuOpen(false)}
                 >
-                    <div className="fixed inset-0 z-10" />
+                    <div className="fixed inset-0 z-10" style={{ bottom: "unset" }}/>
                     <Dialog.Panel className="fixed inset-y-0 right-0 z-10 max-w-xs bg-ydLightBlue px-6 py-6 shadow">
                         <div className="flex items-center justify-between">
                             <Link to="/" className="-m-1.5 p-1.5 font-homeP text-lg">
