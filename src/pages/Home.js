@@ -33,10 +33,10 @@ const Home = (props) => {
             bgColor: 'bg-ydYellow',
         },
         {
-            title: 'Teaching Resources',
+            title: 'Learn Through Music',
             image: Kids,
-            description: 'Resources for Learning, Links We Like',
-            link: '/resources',
+            description: 'Makes learning fun, Original songs, Lyrics in French and English',
+            link: '/songs',
             bgColor: 'bg-ydGreen',
         },
     ];
