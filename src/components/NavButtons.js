@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link, useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
+import { FaFacebook, FaYoutube } from 'react-icons/fa';
+
 
 const NavButtons = (props) =>  {
     const navigate = useNavigate();
@@ -19,18 +21,29 @@ const NavButtons = (props) =>  {
             {showGoBackButton && (
                 <button
                 onClick={goBack}
-                className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded"
+                className="bg-ydBlue hover:bg-ydLightBlue text-white font-bold py-2 px-4 rounded"
                 >
-                Go Back
+                Back
                 </button>
             )}
-            <Link
-                to="https://www.youtube.com/@tialela99"
-                target='_blank'
-                className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded"
-            >
-                Visit our YouTube
-            </Link>
+            <div className="flex mt-2">
+                <a
+                    href="https://www.facebook.com/AlainLeLait.Yadeeda"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 mr-2"
+                >
+                    <FaFacebook size={32} />
+                </a>
+                <a
+                    href="https://www.youtube.com/@tialela99"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-500"
+                >
+                    <FaYoutube size={32} />
+                </a>
+            </div>
         </div>
     )
     
