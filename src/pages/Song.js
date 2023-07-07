@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { songs } from '../MusicData';
+import PurchaseButtons from '../components/PurchaseButtons';
 
 const Song = () => {
     const { id } = useParams();
@@ -38,7 +39,10 @@ const Song = () => {
                 </div>
                 )}
             </div>
+            <div className="mt-auto">
+                <PurchaseButtons />
             </div>
+        </div>
     );
 };
 

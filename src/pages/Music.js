@@ -4,6 +4,7 @@ import SongsFromVideosCover from '../assets/SongsFromVideosCover.jpg';
 import BigNose from '../assets/BigNose.jpg';
 import CestSiBon from '../assets/CestSiBonCover.jpg';
 import Espadrilles from '../assets/EspadrillesCover.jpg';
+import PurchaseButtons from '../components/PurchaseButtons';
 
 const Music = (props) => {
     return (
@@ -27,6 +28,9 @@ const Music = (props) => {
                     <img src={Espadrilles} alt='Espadrilles' className="w-32 h-32 object-cover mb-2 md:w-48 md:h-48 rounded" />
                     <h3 className="text-lg font-semibold">Adult Music</h3>
                 </Link>
+            </div>
+            <div className="mt-auto">
+                <PurchaseButtons />
             </div>
         </div>
     )

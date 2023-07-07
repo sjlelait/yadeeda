@@ -2,7 +2,7 @@ import React from 'react';
 
 const Reviews = (props) => {
     return (
-        <div className="text-left mt-16 font-homeP">
+        <div className="text-left mt-16 font-homeP m-24 shadow-lg rounded">
             <div className="text-lg mt-6 md:text-xl lg:text-3xl font-bold text-ydPurple text-center">Top Reviews</div>
             <h1 className="text-lg mt-6 md:text-xl lg:text-3xl font-bold">Parent Feedback:</h1>
             <p className="m-4 text-textGreen">

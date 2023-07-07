@@ -12,7 +12,7 @@ import Espadrilles from '../pages/Espadrilles';
 
 function Main(props) {
     return (
-        <main className='main'>
+        <main className="main">
             <Routes>
                 <Route path='/' element={<Home /> } />
                 <Route path='/music' element={<Music />} />
