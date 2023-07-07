@@ -45,7 +45,7 @@ const SongList = ({ songs }) => {
             key={index}
             onClick={() => handlePageChange(index + 1)}
             className={`px-2 py-1 mx-1 rounded ${
-              currentPage === index + 1 ? 'bg-gray-500 text-white' : 'bg-gray-200'
+              currentPage === index + 1 ? 'bg-ydBlue text-white' : 'bg-gray-200'
             }`}
           >
             {index + 1}

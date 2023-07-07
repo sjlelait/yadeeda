@@ -21,7 +21,7 @@ const NavButtons = (props) =>  {
             {showGoBackButton && (
                 <button
                 onClick={goBack}
-                className="bg-ydBlue hover:bg-ydLightBlue text-white font-bold py-2 px-4 rounded"
+                className="bg-ydBlue hover:bg-ydLightBlue text-white font-bold py-2 px-4 rounded text-sm md:text-md"
                 >
                 Back
                 </button>
@@ -33,7 +33,7 @@ const NavButtons = (props) =>  {
                     rel="noopener noreferrer"
                     className="text-blue-500 mr-2"
                 >
-                    <FaFacebook size={32} />
+                    <FaFacebook className="text-3xl md:text-4xl" />
                 </a>
                 <a
                     href="https://www.youtube.com/@tialela99"
@@ -41,7 +41,7 @@ const NavButtons = (props) =>  {
                     rel="noopener noreferrer"
                     className="text-red-500"
                 >
-                    <FaYoutube size={32} />
+                    <FaYoutube className="text-3xl md:text-4xl" />
                 </a>
             </div>
         </div>
