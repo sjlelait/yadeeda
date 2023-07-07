@@ -1,13 +1,16 @@
 import React from 'react';
+import Alain from '../assets/Alain.png';
 
 const About = (props) => {
     return (
         <div>
             <h1 className="mb-3 mt-16 text-lg md:text-xl lg:text-3xl font-bold font-homeP text-ydBlue">Yadeeda and Alain Le Lait</h1>
             <div className="flex flex-col md:flex-row">
-                <div className="mt-10 md:w-1/2 p-4">
-                    <img src='' alt='Alain Le Lait'></img>
-                    <p>About Alain</p>
+                <div className="mt-10 md:w-1/2 p-4 text-center">
+                    <div className="flex flex-col items-center justify-center">
+                        <img src={Alain} alt="Alain Le Lait" className="h-52 w-auto" />
+                        <p>About Alain</p>
+                    </div>
                 </div>
                 <div className="mt-10 p-4 md:w-1/2 sm:mt-4">
                     <h3 className="font-bold font-homeP text-ydPurple">Top 10 Reasons to use our Songs and Videos</h3>
