@@ -20,7 +20,8 @@ module.exports = {
       }
     },
     fontFamily: {
-      homeP: ['Comic Sans MS', 'cursive']
+      homeP: ['Comic Sans MS', 'cursive'],
+      ydText: ['Montserrat', 'sans-serif'],
     }
   },
   plugins: [],

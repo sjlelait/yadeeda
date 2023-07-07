@@ -8,7 +8,7 @@ const HomeCard = ({ title, image, description, link, video, bgColor }) => {
       <div className="flex flex-col h-full">        
         <div className="flex flex-col justify-between flex-grow">
           <div>
-            {title && <h2 className="text-xl font-bold mb-3">{title}</h2>}
+            {title && <h2 className="text-2xl font-homeP underline mb-4">{title}</h2>}
             {image && (
               <img src={image} alt={title} className="w-full h-32 object-contain mb-1 rounded" />
             )}

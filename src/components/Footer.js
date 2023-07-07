@@ -1,14 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
 
 
 const Footer = (props) => {
-    const location = useLocation();
-    const isHomePage = location.pathname === '/';
-
     return (
-        <footer className={`fixed bottom-0 left-0 right-0 h-16 w-full text-center justify-between bg-ydLightBlue ${isHomePage ? "" : "sticky"}`}>
+        <footer className="fixed bottom-0 left-0 right-0 w-full text-center justify-between bg-ydLightBlue">
             <div className="container mx-auto px-4 lg:px-8">
                 <div className="flex flex-col items-center justify-center p-2 dark:border-neutral-500 lg:justify-between">
                     <div className="flex justify-center flex-wrap md-2">
