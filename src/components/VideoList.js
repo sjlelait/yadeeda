@@ -14,32 +14,31 @@ const VideoList = ({ videos }) => {
     };
 
     return (
-    <div>
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-        {currentVideos.map((video, index) => (
-          <VideoCard
-            key={index}
-            title={video.title}
-            link={video.link}
-            regularLink={video.regularLink}
-            copyright={video.copyright}
-          />
-        ))}
-      </div>
-
-      <div className="flex justify-center mt-4">
-        {Array.from({ length: totalPages }, (_, index) => (
-          <button
-            key={index}
-            onClick={() => handlePageChange(index + 1)}
-            className={`px-2 py-1 mx-1 rounded ${
-              currentPage === index + 1 ? 'bg-gray-500 text-white' : 'bg-gray-200'
-            }`}
-          >
-            {index + 1}
-          </button>
-        ))}
-      </div>
+      <div>
+        <div className="grid sm:grid-cols-1 md:grid-cols-4 gap-8">
+          {currentVideos.map((video, index) => (
+            <VideoCard
+              key={index}
+              title={video.title}
+              link={video.link}
+              regularLink={video.regularLink}
+              copyright={video.copyright}
+            />
+          ))}
+        </div>
+        <div className="flex justify-center mt-4">
+          {Array.from({ length: totalPages }, (_, index) => (
+            <button
+              key={index}
+              onClick={() => handlePageChange(index + 1)}
+              className={`px-2 py-1 mx-1 rounded ${
+                currentPage === index + 1 ? 'bg-ydBlue text-white' : 'bg-gray-200'
+              }`}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
     </div>
   );
 };

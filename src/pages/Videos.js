@@ -26,7 +26,7 @@ const Videos = (props) => {
 
   return (
     <div>
-      <h1>Yadeeda Videos</h1>
+      <h1 className="text-xl mt-24 text-2xl lg:mt-16 lg:mb-8 lg:text-3xl font-bold font-homeP underline text-ydPurple">Yadeeda Videos</h1>
         <Playlist
             playlists={playlists}
             selectedPlaylist={selectedPlaylist}

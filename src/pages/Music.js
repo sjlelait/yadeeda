@@ -11,7 +11,7 @@ const Music = (props) => {
         <div>
             <h1 className="text-xl mt-24 md:text-xl lg:text-3xl font-bold font-homeP text-ydPurple">Music & Videos by</h1>
             <p className="text-xl mt-2 mb-10 md:text-xl lg:text-3xl font-bold font-homeP text-ydPurple">Alain Le Lait</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 md:mt-38 gap-4 md:mt-20 md:gap-x-0">
+            <div className="grid gridMV grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 md:mt-38 gap-4 md:mt-20 md:gap-x-0">
                 <Link to="/videos" className="flex flex-col items-center mb-4">
                     <img src={BigNose} alt='Videos' className="w-32 h-32 object-cover mb-2 md:w-48 md:h-48 rounded" />
                     <h3 className="text-lg font-semibold">Videos</h3>
