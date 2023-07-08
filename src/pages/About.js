@@ -5,14 +5,14 @@ const About = (props) => {
     return (
         <div>
             <h1 className="mb-3 mt-16 text-lg md:text-xl lg:text-3xl font-bold font-homeP text-ydBlue">Yadeeda and Alain Le Lait</h1>
-            <div className="flex flex-col space-x-6 md:flex-row">
-                <div className="mt-10 rounded-lg shadow-lg p-4 text-center md:w-1/2">
+            <div className="flex flex-col md:flex-row">
+                <div className="m-6 rounded-lg shadow-lg p-4 text-center bg-white md:w-1/2">
                     <div className="flex flex-col items-center justify-center">
                         <img src={Alain} alt="Alain Le Lait" className="h-52 w-auto rounded shadow" />
                         <p>About Alain</p>
                     </div>
                 </div>
-                <div className="mt-10 p-4 rounded-lg shadow-lg md:w-1/2 sm:mt-4 font-homeP">
+                <div className="m-6 p-4 rounded-lg shadow-lg bg-white md:w-1/2 sm:mt-4 font-homeP">
                     <h3 className="text-lg font-bold text-ydPurple mb-6 underline lg:text-xl">Top 10 Reasons to use our Songs and Videos</h3>
                     <ul className="text-left">
                         <li className="mb-4 mt-2">1.  One of the best ways to introduce kids to a new language</li>
