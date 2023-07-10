@@ -33,9 +33,9 @@ const Home = (props) => {
             bgColor: 'bg-ydYellow',
         },
         {
-            title: 'Learn Through Music',
+            title: 'All Song Lyrics Here',
             image: Kids,
-            description: 'Makes learning fun!, Original songs, Lyrics in French and English',
+            description: 'Lyrics in French and English, Makes learning fun!',
             link: '/songs',
             bgColor: 'bg-ydGreen',
         },
