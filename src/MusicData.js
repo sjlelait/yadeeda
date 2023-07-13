@@ -603,7 +603,7 @@ export const songs = [
         id: 14,
         image: require('./assets/ParapluieCover.jpg'),
         titleE: 'The Fish',
-        titleF: `Les poissons`,
+        titleF: `Les Poissons`,
         album: `Parapluie`,
         french: `Les poissons, les poissons
         Ça ne sent pas tellement bon
