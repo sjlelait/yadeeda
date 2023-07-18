@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import HomeCard from '../components/HomeCard';
 import { videos } from '../MusicData';
 import SesameStreet from '../assets/SesameStreet.png';
@@ -36,7 +37,7 @@ const Home = (props) => {
             title: 'All Song Lyrics Here',
             image: Kids,
             description: 'Lyrics in French and English, Makes learning fun!',
-            link: '/songs',
+            link: "/songs",
             bgColor: 'bg-ydGreen',
         },
     ];
