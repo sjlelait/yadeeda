@@ -36,7 +36,7 @@ const Home = (props) => {
             title: 'All Song Lyrics Here',
             image: Kids,
             description: 'Lyrics in French and English, Makes learning fun!',
-            link: "/songs",
+            link: 'https://yadeeda.netlify.app/songs',
             bgColor: 'bg-ydGreen',
         },
     ];
