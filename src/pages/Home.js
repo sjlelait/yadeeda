@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import HomeCard from '../components/HomeCard';
 import { videos } from '../MusicData';
 import SesameStreet from '../assets/SesameStreet.png';
