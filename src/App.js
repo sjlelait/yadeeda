@@ -1,5 +1,6 @@
 import React  from 'react';
 import './App.css';
+import 'typeface-comic-neue';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import Main from './components/Main';
