@@ -11,12 +11,14 @@ module.exports = {
         ydGreen: '#8AD62D',
         ydRed: '#F24730',
         ydYellow: '#FCBB2D',
-        ydPurple: '#6218C9',                
+        ydPurple: '#6218C9',
+        ydGray: "#F5FAFA",          
         YouTubeRed: '#FF0000',
         buttonLight: '#F2F2F2',
         textGreen: '#659600',
         textOrange: '#E67802',
         textPurple: '#5416AB',
+
       }
     },
     fontFamily: {

@@ -7,12 +7,12 @@ import PurchaseButtons from '../components/PurchaseButtons';
 
 const Music = (props) => {
     return (
-        <div>
+        <div className="content bg-white rounded shadow-lg pb-6 m-8 md:m-20">
             <div className="text-xl md:text-3xl font-bold font-homeP text-ydPurple">
-                <h1 className="mt-20 md:mt-24">Music & Videos by</h1>
+                <h1 className="mt-20 md:mt-24 pt-6">Music & Videos by</h1>
                 <p className="mt-2 mb-8 md:mb-10">Alain Le Lait</p>
             </div>
-            <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <div className="overflow-hidden">
                 <p className="mb-8 mt-2">Lyrics to all Songs found under "Songs From Albums" below</p>
                 <div className="grid gridMV grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 md:mt-38 gap-4 md:mt-20 md:gap-x-0">
                     <Link to="/videos" className="flex flex-col items-center mb-4">
