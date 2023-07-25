@@ -3,7 +3,7 @@ import { FaAmazon, FaApple, FaItunes } from 'react-icons/fa';
 
 const PurchaseButtons = (props) => {
     return(
-        <div className="bottom-8 left-0 right-0 flex flex-col items-center justify-center pt-6">
+        <div className="bottom-8 left-0 right-0 flex flex-col items-center justify-center pt-6 pb-4 bg-white rounded-lg shadow-lg">
             <h1 className="mb-2 mt-2">Purchase on these major platforms</h1>
             <div className="flex space-x-4">
                 <a
