@@ -2,9 +2,9 @@ import React from 'react';
 
 const Reviews = (props) => {
     return (
-        <div className="text-left mt-16 font-homeP m-24 shadow-lg rounded">
-            <div className="text-lg mt-6 md:text-xl lg:text-3xl font-bold text-ydPurple text-center">Top Reviews</div>
-            <h1 className="text-lg mt-6 md:text-xl lg:text-3xl font-bold">Parent Feedback:</h1>
+        <div className="text-left mt-16 font-homeP m-6 md:m-24 shadow-lg rounded-lg bg-white p-4">
+            <div className="text-2xl mt-6 lg:text-3xl font-bold text-ydPurple underline text-center">Top Reviews</div>
+            <h1 className="mt-6 text-lg lg:text-2xl font-bold">Parent Feedback:</h1>
             <p className="m-4 text-textGreen">
                 "My children loved your CDs. 
                 We have played them 300 gizillions times..." - Kate D., California
@@ -14,7 +14,7 @@ const Reviews = (props) => {
                 and I enjoy seeing her learn the French words in a fun atmosphere. 
                 I am looking to acquire more of your music." - Melanie W., Minnesota
             </p>
-            <h1 className="text-lg mt-6 md:text-xl lg:text-3xl font-bold">Teacher Feedback:</h1>
+            <h1 className="text-lg mt-6 lg:text-2xl font-bold">Teacher Feedback:</h1>
             <p className="m-4 text-textPurple">
                 "I am a Teacher and my class really enjoys 'Soyons Amis'. 
                 Thanks so much for the great work you do in helping Teachers 
@@ -41,10 +41,10 @@ const Reviews = (props) => {
                 language learners. 
                 Sincerely, Robalee Dinopoulos, Poland, OH"
             </p>
-            <h1 className="text-lg mt-6 md:text-xl lg:text-3xl font-bold">Even More:</h1>
+            <h1 className="text-lg mt-6 lg:text-2xl font-bold">Even More:</h1>
             <p className="m-4 text-ydBlue">
                 "... showcasing Le Lait's talent for creating songs with definite child appeal.  
-                With a style reminiscent of Raffi's, Le Lait is certainly in his league."  -School Library Journal
+                With a style reminiscent of Raffi's, Le Lait is certainly in his league."  - School Library Journal
             </p>
             <p className="m-4 text-ydBlue">
                 "Yadeeda.com publishes clever collections of songs for young French and Spanish 
