@@ -46,7 +46,7 @@ const Home = (props) => {
     return (
         <div className="flex flex-col items-center bg-white">
             <img src={Logo} alt="Yadeeda Logo" className="w-48 h-auto sm:w-64 md:w-76 lg:w-76" />
-            <h1 className="mb-3 text-lg md:text-xl lg:text-3xl font-bold font-homeP text-ydPurple">Fun songs in French & English for all ages</h1>
+            <h1 className="mb-3 text-xl md:text-xl lg:text-3xl font-bold font-homeP text-ydPurple">Fun songs in French & English for all ages</h1>
             <p className="mb-3 text-md md:text-lg lg:text-xl font-homeP text-ydPurple">Music & Videos by Alain Le Lait</p>
                 <div className="flex flex-col md:flex-row items-center justify-center">
                     {cardData.map((card, index) => (
