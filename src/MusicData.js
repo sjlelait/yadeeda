@@ -2761,33 +2761,6 @@ export const songs = [
 
 export const videos = [
     {
-        id: 101,
-        title: 'Be Kind To Others',
-        link: 'https://www.youtube.com/embed/j4No4jtOGpo',
-        regularLink: 'https://www.youtube.com/watch?v=j4No4jtOGpo',
-        category: 'English',
-        playlists: 'English Songs',
-        copyright: '© 2022 Music & animation by Alain Le Lait',
-    },
-    {
-        id: 102,
-        title: 'Who Is a Good Dog?',
-        link: 'https://www.youtube.com/embed/PXQLJBhMMAA',
-        regularLink: 'https://www.youtube.com/watch?v=PXQLJBhMMAA',
-        category: 'Adult',
-        playlists: 'Adult',
-        copyright: '© 2022 Music & animation by Alain Le Lait',
-    },
-    {
-        id: 103,
-        title: 'Les Beignets',
-        link: 'https://www.youtube.com/embed/cGnVLRzLZHE',
-        regularLink: 'https://www.youtube.com/watch?v=cGnVLRzLZHE',
-        category: 'French',
-        playlists: 'Vocab',
-        copyright: '© 2021 Music & animation by Alain Le Lait',
-    },
-    {
         id: 104,
         title: 'Verbe Devoir',
         link: 'https://www.youtube.com/embed/5TgAQnCr920',
@@ -2982,7 +2955,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/BTJYPpAIZXo',
         regularLink: 'https://www.youtube.com/watch?v=BTJYPpAIZXo',
         category: 'Instrumental',
-        playlists: 'Adult',  
+        playlists: ['French', 'English'],
         copyright: '© 2014 Music & animation by Alain Le Lait',
     },
     {
@@ -3183,6 +3156,76 @@ export const videos = [
         playlists: ['Colors', 'Vocab', '10 Most Popular Videos'],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
+
+]
+
+export const espadrilles = [
+    {
+        id: 200,
+        title: 'Le Centipede',
+        sample: require('./assets/Le-centipede.mp3'),
+        video: '',
+    },
+    {
+        id: 201,
+        title: 'Tes Yeux Bleus',
+        sample: require('./assets/Tes-yeux-bleus.mp3'),
+        video: '',
+    },
+    {
+        id: 202,
+        title: 'Espadrilles',
+        sample: require('./assets/Espadrilles.mp3'),
+        video: '',
+    },
+    {
+        id: 203,
+        title: `Je Te L'ai Dit Mille Fois`,
+        sample: require('./assets/Je-te-lai-dit-1000-fois.mp3'),
+        video: '',
+    },
+    {
+        id: 204,
+        title: `Y'a Ceux Qui En Ont`,
+        sample: require('./assets/Ya-ceux-qui-en-ont.mp3'),
+        video: '',
+    },
+    {
+        id: 205,
+        title: `La Giraffe et L'hippoptame`,
+        sample: require('./assets/La-girafe-et-lhippopotame.mp3'),
+        video: '',
+    },
+]
+
+export const adult = [
+    {
+        id: 101,
+        title: 'Be Kind To Others',
+        link: 'https://www.youtube.com/embed/j4No4jtOGpo',
+        regularLink: 'https://www.youtube.com/watch?v=j4No4jtOGpo',
+        category: 'English',
+        playlists: 'English Songs',
+        copyright: '© 2022 Music & animation by Alain Le Lait',
+    },
+    {
+        id: 102,
+        title: 'Who Is a Good Dog?',
+        link: 'https://www.youtube.com/embed/PXQLJBhMMAA',
+        regularLink: 'https://www.youtube.com/watch?v=PXQLJBhMMAA',
+        category: 'Adult',
+        playlists: 'Adult',
+        copyright: '© 2022 Music & animation by Alain Le Lait',
+    },
+    {
+        id: 103,
+        title: 'Les Beignets',
+        link: 'https://www.youtube.com/embed/cGnVLRzLZHE',
+        regularLink: 'https://www.youtube.com/watch?v=cGnVLRzLZHE',
+        category: 'French',
+        playlists: 'Vocab',
+        copyright: '© 2021 Music & animation by Alain Le Lait',
+    },
     {
         id: 148,
         title: `San Francisco Bay Blues (Jesse Fuller)`,
@@ -3236,45 +3279,5 @@ export const videos = [
         category: 'English',
         playlists: ['English', '10 Most Popular Videos'],
         copyright: '© 2011 Music & animation by Alain Le Lait',
-    },
-
-]
-
-export const espadrilles = [
-    {
-        id: 200,
-        title: 'Le Centipede',
-        sample: require('./assets/Le-centipede.mp3'),
-        video: '',
-    },
-    {
-        id: 201,
-        title: 'Tes Yeux Bleus',
-        sample: require('./assets/Tes-yeux-bleus.mp3'),
-        video: '',
-    },
-    {
-        id: 202,
-        title: 'Espadrilles',
-        sample: require('./assets/Espadrilles.mp3'),
-        video: '',
-    },
-    {
-        id: 203,
-        title: `Je Te L'ai Dit Mille Fois`,
-        sample: require('./assets/Je-te-lai-dit-1000-fois.mp3'),
-        video: '',
-    },
-    {
-        id: 204,
-        title: `Y'a Ceux Qui En Ont`,
-        sample: require('./assets/Ya-ceux-qui-en-ont.mp3'),
-        video: '',
-    },
-    {
-        id: 205,
-        title: `La Giraffe et L'hippoptame`,
-        sample: require('./assets/La-girafe-et-lhippopotame.mp3'),
-        video: '',
     },
 ]
