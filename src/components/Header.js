@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../assets/ydLogoSolo.png';
 
 import { Popover, Dialog } from '@headlessui/react';
 import {  Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
@@ -16,9 +17,9 @@ const Header = (props) => {
         <header className="bg-ydLightBlue">
             <nav className="mx-auto flex max-w-7xl items-center justify-between h-16 p-6 lg:px-6 shadow" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <Link to="/" className="-m-1.5 p-1.5 text-xl font-homeP">
+                    <Link to="/" className="-m-1.5 p-1.5 w-32">
                         <span className="sr-only">Yadeeda</span>
-                        Yadeeda
+                        <img src={Logo} alt="Yadeeda" />
                     </Link>
                 </div>
                 <div className="flex lg:hidden">

@@ -4,6 +4,10 @@
   background-position: cover;
 }
 
+.noBackground {
+  background-image: none;
+}
+
 .main {
   margin: 2rem;
 }
