@@ -6,15 +6,15 @@ import PurchaseButtons from '../components/PurchaseButtons';
 
 const Espadrilles = () => {
     return (
-        <div className="items-center justify-center min-h-screen">
-            <div className=" items-center justify-center">
-                <h1 className="text-xl mt-20 mb-8 md:text-xl lg:text-3xl font-bold underline font-homeP text-ydPurple">
+        <div className="min-h-screen bg-white rounded shadow-lg p-4 m-2 mt-16 md:mt-20 md:p-6 md:m-20">
+            <div className="items-center justify-center">
+                <h1 className="text-xl mt-20 mb-8 mt-4 md:text-xl lg:text-3xl font-bold underline font-homeP text-ydPurple">
                     Espadrilles Album & Videos for Adults
                 </h1>
                 <img
                     src={EsCover}
                     alt="Espadrilles Cover"
-                    className="w-40 h-auto mx-auto rounded shadow mb-4 md:w-48"
+                    className="w-40 h-auto mx-auto rounded shadow-lg mb-6 md:w-48"
                 />
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {espadrilles.map((song) => (
@@ -28,6 +28,7 @@ const Espadrilles = () => {
                 ))}
                 </div>
             </div>
+            <p>(coming soon: Adult embedded videos here)</p>
             <div className="mt-auto">
                 <PurchaseButtons />
             </div>
