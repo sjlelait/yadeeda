@@ -8,8 +8,8 @@ const About = (props) => {
             <div className="flex flex-col md:flex-row">
                 <div className="p-4 m-2 rounded-lg shadow-lg text-center bg-white md:w-1/2 font-homeP">
                     <div className="flex flex-col items-center justify-center">
-                        <img src={Alain} alt="Alain Le Lait" className="h-52 w-auto rounded shadow" />
-                        <p className="mt-4">Alain Le Lait has been writing and recording children's music since 1990. His songs and videos are in use in classrooms throughout the world as teaching materials for both kids and adults. You'll find these whymsical and catchy tunes in your head for years to come, reminding you of the language and helping you learn.</p>
+                        <img src={Alain} alt="Alain Le Lait" className="h-52 w-auto rounded shadow mt-4" />
+                        <p className="mt-4 md:mt-10">Alain Le Lait has been writing and recording children's music since 1990. His songs and videos are in use in classrooms throughout the world as teaching materials for both kids and adults. You'll find these whymsical and catchy tunes in your head for years to come, reminding you of the language and helping you learn.</p>
                     </div>
                 </div>
                 <div className="p-4 m-2 rounded-lg shadow-lg bg-white md:w-1/2 font-homeP">
