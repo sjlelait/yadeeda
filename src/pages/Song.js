@@ -30,7 +30,7 @@ const Song = () => {
                     </div>
                 </div>
                 ) : (
-                <div className="text-left">
+                <div className="text-center">
                     <h1 className="text-xl font-bold pt-6 pb-4">{song.titleE}</h1>
                     <p className="text-gray-700">(English Lyrics)</p>
                     <p className="text-gray-500">{song.copyright}</p>
