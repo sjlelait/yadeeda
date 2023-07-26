@@ -1,9 +1,10 @@
 import React from 'react';
+import Form from '../components/Form';
 
 const Contact = (props) => {
     return (
-        <h1>Contact Form</h1>
+        <Form />
     )
-}
-
+  };
+  
 export default Contact;
