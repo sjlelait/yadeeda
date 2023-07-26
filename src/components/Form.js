@@ -2,49 +2,48 @@ import { useState } from 'react';
 
 function Form (props) {
 
-    function getClearFormState () {
-        return ({
-            name: '',
-            email: '',
-            message: ''
-        });
-    }
+    const getNewState = () => ({
+        name: '',
+        email: '',
+        message: ''
+    });
 
-    const [ formState, setFormState ] = useState(getClearFormState());
+    const [formState, setFormState] = useState(getNewState());
 
-    const { name, email, message } = formState;
-
-    function encode ({ name, email, message }) {
+    const encode = ({ name, email, message }) => { 
         return `form-name=contact&name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}&message=${encodeURIComponent(message)}`;
-    }
+    }; 
 
-    function handleChange (evt) {
+    const handleChange = (event) => {
         setFormState({
             ...formState,
-            [evt.target.name]: evt.target.value
+            [event.target.name]: event.target.value
         });
-    }
+    };
 
-    async function handleSubmit (evt) {
-        evt.preventDefault();
-        await fetch ('/', {
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        console.log('Form submitted!');
+        await fetch('/', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/x-www-form-urlencoded'
             },
             body: encode(formState)
         });
-        setFormState(getClearFormState());
+        setFormState(getNewState());
         alert('Your form has been submitted!');
         window.location.href = '/';
     };
+
+    const { name, email, message } = formState;
 
     return (
         <>
             <div className="flex justify-center items-center mt-20 md:mt-32">
                 <div className="content bg-white rounded-lg shadow-lg p-4">
                     <h3 className="text-xl m-6 lg:text-3xl font-bold text-ydPurple underline text-center">Contact Yadeeda</h3>
-                    <form name="contact" method="POST" data-netlify="true" className="form" onSubmit={handleSubmit}>
+                    <form name="contact" data-netlify="true" method="POST" onSubmit={handleSubmit}>
                         <div className="form-container p-2">
                             <input type="hidden" name="form-name" value="contact" />
                             <label htmlFor="name">Name:</label>
