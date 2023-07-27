@@ -17,7 +17,7 @@ const About = (props) => {
                 </div>
                 <div className="p-4 mt-4 mb-4 md:m-4 md:mr-0 rounded-lg shadow-lg bg-white md:w-1/2 font-homeP">
                     <h3 className="text-xl font-bold text-ydPurple mb-6 lg:text-xl">Top 10 Reasons to Use Our Songs and Videos</h3>
-                    <ul className="text-left">
+                    <ul className="text-left ml-2">
                         <li className="mb-4 mt-2">1.  One of the best ways to introduce kids to a new language</li>
                         <li className="mb-4">2.  ‘Fun and Enjoyable tunes’ (School Library Journal)</li>
                         <li className="mb-4">3.  Catchy melodies</li>
