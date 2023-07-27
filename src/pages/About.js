@@ -5,9 +5,9 @@ import PurchaseButtons from '../components/PurchaseButtons';
 const About = (props) => {
     return (
         <div>
-            <h1 className="bg-white rounded-lg shadow-lg inline-block p-2 md:p-4 mt-8 md:mt-16 text-2xl lg:text-3xl font-bold font-homeP underline text-ydPurple">About Yadeeda</h1>
+            <h1 className="bg-white rounded-lg shadow-lg p-2 md:p-4 mt-16 text-2xl lg:text-3xl font-bold font-homeP underline text-ydPurple">About Yadeeda</h1>
             <div className="flex flex-col md:flex-row">
-                <div className="p-4 m-2 rounded-lg shadow-lg text-center bg-white md:w-1/2 font-homeP">
+                <div className="p-4 mt-4 md:m-4 md:ml-0 rounded-lg shadow-lg text-center bg-white md:w-1/2 font-homeP">
                     <div className="flex flex-col items-center justify-center">
                         <img src={Alain} alt="Alain Le Lait" className="h-52 w-auto rounded-lg shadow-lg m-4" />
                         <p className="mb-2">Alain Le Lait, a native French speaker, started Yadeeda (originally Pollyglot) in 1990 to help children learn the French Language.</p>
@@ -15,7 +15,7 @@ const About = (props) => {
                         <p className="mb-2">In 2011, Alain started animating his songs and the videos can be found here on <a href="https://www.youtube.com/@tialela99" target="_blank" rel="noopener noreferrer" className="text-ydBlue underline text-lg hover:text-ydLightBlue">YouTube</a>.</p>
                     </div>
                 </div>
-                <div className="p-4 m-2 rounded-lg shadow-lg bg-white md:w-1/2 font-homeP">
+                <div className="p-4 mt-4 mb-4 md:m-4 md:mr-0 rounded-lg shadow-lg bg-white md:w-1/2 font-homeP">
                     <h3 className="text-xl font-bold text-ydPurple mb-6 lg:text-xl">Top 10 Reasons to Use Our Songs and Videos</h3>
                     <ul className="text-left">
                         <li className="mb-4 mt-2">1.  One of the best ways to introduce kids to a new language</li>
