@@ -1429,7 +1429,7 @@ export const songs = [
         
         (Repeat from the beginning)
         
-         Noodle soup
+        Noodle soup
         Nougat, caramels
         Apple tart, steamed potatoes
         Sugared crêpes and 
@@ -2760,77 +2760,353 @@ export const songs = [
     {
         id: 49,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Alouette, Funky Alouette',
         titleF: `Alouette, Funky Alouette`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: `Alouette, gentille alouette
+        Alouette, je te plumerai
+        Je te plumerai la tête 
+        Je te plumerai la tête
+        Et la tête - et la tête
+        Alouette - alouette
+        Ahhhhhhhh.....
+        
+        Alouette, gentille alouette
+        Alouette, je te plumerai
+        Je te plumerai le bec (x2)
+        Et le bec - et le bec
+        Et la tête - et la tête
+        Alouette - alouette
+        Ahhhhhhhh.....
+        
+        Alouette, gentille alouette
+        Alouette, je te plumerai
+        Je te plumerai le cou (x2)
+        Et le cou - et le cou
+        Et le bec - et le bec
+        Et la tête - et la tête
+        Alouette - alouette
+        Ahhhhhhhh.....
+        
+        Alouette, gentille alouette
+        Alouette, je te plumerai
+        Je te plumerai les ailes (x2)
+        Et les ailes - et les ailes
+        Et le cou - et le cou
+        Et le bec - et le bec
+        Et la tête - et la tête
+        Alouette - alouette
+        Ahhhhhhhh.....
+        
+        Alouette, gentille alouette
+        Alouette, je te plumerai
+        Je te plumerai le dos (x2)
+        Et le dos - et le dos
+        Et les ailes - et les ailes
+        Et le cou - et le cou
+        Et le bec - et le bec
+        Et la tête - et la tête
+        Alouette - alouette
+        Ahhhhhhhh.....
+        
+        Alouette, gentille alouette
+        Alouette, je te plumerai
+        Je te plumerai les pattes (x2)
+        Et les pattes - et les pattes
+        Et le dos - et le dos
+        Et les ailes - et les ailes
+        Et le cou - et le cou
+        Et le bec - et le bec
+        Et la tête - et la tête
+        Alouette - alouette
+        Ahhhhhhhh.....
+        
+        Alouette, gentille alouette
+        Alouette, je te plumerai
+        Je te plumerai la queue (x2)
+        Et la queue - et la queue
+        Et les pattes - et les pattes
+        Et le dos - et le dos
+        Et les ailes - et les ailes
+        Et le cou - et le cou
+        Et le bec - et le bec
+        Et la tête - et la tête
+        Alouette - alouette
+        Ahhhhhhhh.....`,
+        english: `Lark, gentle lark
+        Lark, I will pull your feathers off
+        I will pull the feathers off your head
+        I will pull the feathers off your head
+        And the head - and the head
+        Lark, lark
+        Ahhhhhhhh.....
+        
+        Lark, gentle lark
+        Lark, I will pull your feathers off
+        I will pull the feathers off your beak
+        And the beak - and the beak
+        And the head - and the head
+        Lark, lark
+        Ahhhhhhhh.....
+        
+        Lark, gentle lark
+        Lark, I will pull your feathers off
+        I will pull the feathers off your neck
+        And the neck - and the neck
+        And the beak - and the beak
+        And the head - and the head
+        Lark, lark
+        Ahhhhhhhh.....
+        
+        Lark, gentle lark
+        Lark, I will pull your feathers off
+        I will pull the feathers off your wings
+        And the wings - and the wings
+        And the neck - and the neck
+        And the beak - and the beak
+        And the head - and the head
+        Lark, lark
+        Ahhhhhhhh.....
+        
+        Lark, gentle lark
+        Lark, I will pull your feathers off
+        I will pull the feathers off your back
+        And the back - and the back
+        And the wings - and the wings
+        And the neck - and the neck
+        And the beak - and the beak
+        And the head - and the head
+        Lark, lark
+        Ahhhhhhhh.....
+        
+        Lark, gentle lark
+        Lark, I will pull your feathers off
+        I will pull the feathers off your legs
+        And the legs - and the legs
+        And the back - and the back
+        And the wings - and the wings
+        And the neck - and the neck
+        And the beak - and the beak
+        And the head - and the head
+        Lark, lark
+        Ahhhhhhhh.....
+        
+        Lark, gentle lark
+        Lark, I will pull your feathers off
+        I will pull the feathers off your tail
+        And the tail - and the tail
+        And the legs - and the legs
+        And the back - and the back
+        And the wings - and the wings
+        And the neck - and the neck
+        And the beak - and the beak
+        And the head - and the head
+        Lark, lark
+        Ahhhhhhhh.....`,
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 50,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Numbers 1-20',
         titleF: `Les Chiffres de 1 à 20`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 51,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Hello (vedoe version)',
         titleF: `Bonjour (version vidéo)`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: `Bonjour, bonjour 
+        Comment ça va?
+        Bonjour, bonjour
+        Trés bien, merci
+        Je suis content d’être ici
+        Avec tous mes petits amis
+        Bonjour, bonjour
+        Comment ça va?
+        
+        Merci, merci
+        Merci d’être ici
+        Merci, merci
+        Écoutez
+        Aimez-vous cette chanson?
+        J’éspère que je suis dans le ton
+        Merci, merci
+        Merci d’être ici`,
+        english: `Hello, hello
+        How are you?
+        Hello, hello
+        Very well, thank you
+        I am happy to be here
+        With all my little friends
+        Hello, hello
+        How are you?
+        
+        Thank you, thank you
+        For being here
+        Thank you, thank you
+        Listen up
+        Do you like this song?
+        I hope that I am in tune
+        Thank you, thank you
+        For being here `,
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 52,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'With a Big Nose (video version)',
         titleF: `Avec un Gros Nez (version vidéo)`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: `C’est un chien, c’est un chien
+        Ouah, ouah, ouah (répétez)
+        C’est un chien, c’est un chien
+        Avec un gros nez
+        C’est un chat, c’est un chat
+        Miaou, miaou, miaou (répétez)
+        C’est un chat, c’est un chat
+        Avec un gros nez
+        
+        Un chien et un chat, avec un gros nez
+        Ce n’est pas souvent qu’on en voit passer 
+        (x2)
+        
+        Un oiseau, un oiseau
+        (Sifflez 3 fois) répétez
+        Un oiseau, un oiseau
+        Avec un gros nez
+        Un poisson, un poisson
+        (Claquez les lèvres 3 fois) répétez
+        Un poisson, un poisson
+        Avec un gros nez
+        
+        Un oiseau, un poisson, avec un gros nez
+        Ce n’est pas souvent qu’on en voit passer 
+        (x2)
+        
+        C’est une vache, c’est une vache
+        Meuh, meuh (répétez)
+        C’est une vache, c’est une vache 
+        Avec un gros nez
+        Un cochon, un cochon
+        Ron, ron, ron (répétez)
+        Un cochon, un cochon
+        Avec un gros nez
+        
+        Une vache, un cochon, avec un gros nez
+        Ce n’est pas souvent qu’on en voit passer 
+        (x2)
+        
+        C’est Alain, c’est Alain
+        Oui, oui, oui (répétez)
+        C’est Alain, c’est Alain
+        Avec un gros nez
+        (Répétez ce couplet)
+        
+        Je m’appelle Alain
+        Et j’ai un gros nez
+        Mais ca ne fait rien
+        Car mon nez je l’aime bien
+        Il s’appelle Alain
+        Et il a un gros nez
+        Mais ca ne fait rien
+        Car son nez on l’aime bien
+        (Répétez)`,
+        english: `It’s a dog, it’s a dog
+        Woof, woof, woof (repeat)
+        It’s a dog, it’s a dog
+        With a big nose
+        It’s a cat, it’s a cat
+        Meow, meow (repeat)
+        It’s a cat, it’s a cat
+        With a big nose
+        
+        A dog and a cat, with a big nose
+        It is not often that you see that go by 
+        (x2)
+        
+        A bird, a bird
+        (Whistle 3 times) repeat
+        A bird, a bird
+        With a big nose
+        A fish, a fish
+        (Smack lips 3 times) repeat
+        A fish, a fish
+        With a big nose
+        
+        A bird, a fish, with a big nose
+        It is not often that you see that go by 
+        (x2)
+        
+        It’s a cow, it’s a cow
+        Moo, moo (repeat)
+        It’s a cow, it’s a cow
+        With a great big nose
+        A pig, a pig
+        Oink, oink, oink (repeat)
+        A pig, a pig
+        With a big nose
+        
+        A cow, a pig, with a big nose
+        It is not often that you see that go by 
+        (x2)
+        
+        It’s Alain, it’s Alain
+        Yes, yes, yes (repeat)
+        It’s Alain, it’s Alain
+        With a big nose
+        (Repeat this verse)
+        
+        My name is Alain
+        And I have a big nose
+        But it doesn’t matter
+        Because I like my nose
+        His name is Alain
+        And he has a big nose
+        But it doesn’t matter
+        Because we like his nose
+        (Repeat) `,
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 53,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'The Months of the Year',
         titleF: `Les Mois de l'année`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 54,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Au Clair de la Lune',
         titleF: `Au Clair de la Lune`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 55,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'I Like Fruits (video version)',
         titleF: `J'aime les Fruits (version vidéo)`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
@@ -2840,272 +3116,272 @@ export const songs = [
         titleE: '',
         titleF: `Frère Jacques`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 57,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'In My Room',
         titleF: `Dans Ma Chambre`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 58,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'My Family',
         titleF: `Ma Famille`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 59,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Happy Birthday',
         titleF: `Joyeux Anniversaire`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 60,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Verb speak - Present Tense',
         titleF: `Verbe parler - Présent`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 61,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Verb be - Present Tense',
         titleF: `Verbe être - Présent`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 62,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Verb have - Present Tense',
         titleF: `Verbe avoir - Présent`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 63,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Verb go - Present Tense',
         titleF: `Verbe aller - Présent`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 64,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Verb do - Present Tense',
         titleF: `Verbe faire - Présent`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 65,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Numbers 20-50',
         titleF: `Les Chiffres de 20 à 50`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 66,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Numbers 50-70',
         titleF: `Les Chiffres de 50 à 70`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 67,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Numbers 70-100',
         titleF: `Les Chiffres de 70 à 100`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 68,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
-        titleF: `Où est le Chat`,
+        titleE: 'Where is the Cat?',
+        titleF: `Où est le Chat?`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 69,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'The Emotions',
         titleF: `Les Émotions`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 70,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Clothes',
         titleF: `Les Vêtements`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 71,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'The Past Tense',
         titleF: `Le Passé Composeé`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 72,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'For Breakfast',
         titleF: `Au Petit Déjeuner`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 73,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'What Time is it?',
         titleF: `Quel Temps Fail-il?`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 74,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Verb finish - Present Tense',
         titleF: `Verbe finir - Présent`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 75,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Halloween',
         titleF: `Halloween`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 76,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'Verb have - Present Tense',
         titleF: `Verbe devoir - Présent`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 77,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'The Beignets',
         titleF: `Les Beignets`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 78,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'For Breakfast - Reggae',
         titleF: `Au Petit Déjuner - Reggae`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 79,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'I Walk',
         titleF: `Je Marche`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
     {
         id: 80,
         image: require('./assets/SongsFromVideosCover.jpg'),
-        titleE: '',
+        titleE: 'The Days of the Month',
         titleF: `Les Jours de la Semaine`,
         album: `Songs From Videos`,
-        french: '',
-        english: '',
+        french: 'Full lyrics coming soon!',
+        english: 'Full lyrics coming soon!',
         copyright: '© 2021 Alain Le Lait',
         link: '',
     },
