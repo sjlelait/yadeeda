@@ -9,9 +9,9 @@ const Song = () => {
 
 
     return (
-        <div className="w-full overflow-auto text-center md:text-left mt-16 md:p-16">
+        <div className="w-full overflow-auto text-center mt-16 md:text-left md:p-16">
             <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-lg md:p-4">
-                <img src={song.image} alt="Yadeeda Album" className="w-32 h-32 mt-12 ml-16 rounded shadow-lg md:m-8" />
+                <img src={song.image} alt="Yadeeda Album" className="w-32 h-32 mt-12 ml-12 rounded shadow-lg md:m-8" />
                 {song.titleF ? (
                 <div className="mt-10 md:flex md:flex-row md:items-start">
                     <div className="md:w-1/2 pr-4">
@@ -37,7 +37,7 @@ const Song = () => {
                     <br />
                     {song.english && <p style={{ whiteSpace: 'pre-line' }}>{song.english}</p>}
                 </div>
-                )}
+                )}            
             </div>
             <div className="mt-auto">
                 <PurchaseButtons />

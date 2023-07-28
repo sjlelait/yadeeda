@@ -6,9 +6,9 @@ import PurchaseButtons from '../components/PurchaseButtons';
 
 const Espadrilles = () => {
     return (
-        <div className="min-h-screen bg-white rounded shadow-lg p-4 m-2 mt-16 md:mt-20 md:p-6 md:m-20">
+        <div className="min-h-screen bg-white rounded shadow-lg p-4 m-2 mt-20 md:mt-20 md:p-6 md:m-20">
             <div className="items-center justify-center">
-                <h1 className="text-xl mt-20 mb-8 mt-4 lg:text-3xl font-bold underline font-homeP text-ydPurple">
+                <h1 className="text-2xl mt-20 mb-8 mt-4 lg:text-3xl font-bold underline font-homeP text-ydPurple">
                     Music for Grown Ups
                 </h1>
                 <img
@@ -30,7 +30,7 @@ const Espadrilles = () => {
                 ))}
                 </div>
             </div>
-            <p>(coming soon: Adult embedded videos here)</p>
+            <p>(coming soon: Grown Up Videos)</p>
             <div className="mt-auto">
                 <PurchaseButtons />
             </div>

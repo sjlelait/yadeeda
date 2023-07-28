@@ -14,6 +14,7 @@ const NavButtons = (props) =>  {
     const showGoBackButton =
         location.pathname === '/videos' ||
         location.pathname === '/songs' ||
+        location.pathname === '/espadrilles' ||
         /^\/song\/\d+$/.test(location.pathname);
 
     return (
