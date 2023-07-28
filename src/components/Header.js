@@ -15,7 +15,7 @@ const Header = (props) => {
 
     return (
         <header className="bg-ydLightBlue">
-            <nav className="mx-auto flex max-w-7xl items-center justify-between h-16 p-6 lg:px-6 shadow" aria-label="Global">
+            <nav className="mx-auto flex max-w-7xl items-center justify-between h-16 p-6 lg:px-6 shadow-lg" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <Link to="/" className="-m-1.5 p-1.5 w-32">
                         <span className="sr-only">Yadeeda</span>
@@ -34,7 +34,7 @@ const Header = (props) => {
                 </div>
                 <Popover.Group className="hidden lg:flex lg:gap-x-18">
                     <Popover className="relative">
-                        <div className="bg-ydRed inline-block rounded-lg h-10 pt-2 mr-2 items-center">
+                        <div className="bg-ydRed inline-block rounded-lg h-10 pt-2 mr-2 items-center hover:shadow-lg">
                             <Link 
                                 to="/"
                                 className="text-md font-semibold m-4 leading-6"
@@ -44,7 +44,7 @@ const Header = (props) => {
                                 Home
                             </Link>
                         </div>
-                        <div className="bg-ydYellow inline-block rounded-lg  h-10 pt-2  mr-2 items-center">
+                        <div className="bg-ydYellow inline-block rounded-lg  h-10 pt-2  mr-2 items-center hover:shadow-lg">
                             <Link 
                                 to="/music" 
                                 className="text-md font-semibold m-4 leading-6"
@@ -54,7 +54,7 @@ const Header = (props) => {
                                 Music & Videos
                             </Link>
                         </div>
-                        <div className="bg-ydGreen inline-block rounded-lg  h-10 pt-2  mr-2 items-center">
+                        <div className="bg-ydGreen inline-block rounded-lg  h-10 pt-2  mr-2 items-center hover:shadow-lg">
                             <Link 
                                 to="/about" 
                                 className="text-md font-semibold m-4 leading-6"
@@ -64,7 +64,7 @@ const Header = (props) => {
                                 About Us
                             </Link>
                         </div>
-                        <div className="bg-ydPurple inline-block rounded-lg  h-10 pt-2  mr-2 items-center">
+                        <div className="bg-ydPurple inline-block rounded-lg  h-10 pt-2  mr-2 items-center hover:shadow-lg">
                             <Link 
                                 to="/resources" 
                                 className="text-md font-semibold m-4 leading-6 text-white"
@@ -74,7 +74,7 @@ const Header = (props) => {
                                 Resources
                             </Link>
                         </div>
-                        <div className="bg-ydBlue inline-block rounded-lg  h-10 pt-2  mr-2 items-center">
+                        <div className="bg-ydBlue inline-block rounded-lg  h-10 pt-2  mr-2 items-center hover:shadow-lg">
                             <Link 
                                 to="/contact" 
                                 className="text-md font-semibold m-4 leading-6 text-white"
