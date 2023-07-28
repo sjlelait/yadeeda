@@ -80,8 +80,8 @@ export const songs = [
     {
         id: 2,
         image: require('./assets/ParapluieCover.jpg'),
-        titleE: 'Arc-en-ciel',
-        titleF: 'Rainbow',
+        titleE: 'Rainbow',
+        titleF: 'Arc-en-ciel',
         album: 'Parapluie',
         french: `Il a les yeux rouges
         Il a les yeux jaunes
