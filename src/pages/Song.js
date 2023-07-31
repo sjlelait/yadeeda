@@ -39,7 +39,7 @@ const Song = () => {
                 </div>
                 )}            
             </div>
-            <div className="mt-auto lg:ml-24 lg:mr-24">
+            <div className="mt-auto">
                 <PurchaseButtons />
             </div>
         </div>
