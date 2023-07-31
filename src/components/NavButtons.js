@@ -18,7 +18,7 @@ const NavButtons = (props) =>  {
         /^\/song\/\d+$/.test(location.pathname);
 
     return (
-        <div className="absolute top-18 left-0 mt-5 ml-4">          
+        <div className="absolute top-18 left-0 mt-5 ml-4 p-2 bg-ydBG rounded-lg inline-block z-0">          
             {showGoBackButton && (
                 <button
                 onClick={goBack}
