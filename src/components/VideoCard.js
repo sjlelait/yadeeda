@@ -13,7 +13,7 @@ return (
                 ></iframe>
             </div>
             <div className="p-4">
-                <h2 className="text-lg font-semibold">
+                <h2 className="text-lg font-semibold" translate="no">
                     <a href={regularLink} target="_blank" rel="noopener noreferrer">
                         {title}
                     </a>

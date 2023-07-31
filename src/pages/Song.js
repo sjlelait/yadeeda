@@ -9,7 +9,7 @@ const Song = () => {
 
 
     return (
-        <div className="w-full overflow-auto text-center mt-16 md:text-left md:p-16">
+        <div className="w-full overflow-auto text-center mt-16 md:text-left md:p-16" translate="no">
             <div className="flex flex-col md:flex-row bg-white rounded-lg shadow-lg md:p-4">
                 <img src={song.image} alt="Yadeeda Album" className="w-32 h-32 mt-12 ml-12 rounded shadow-lg md:m-8" />
                 {song.titleF ? (

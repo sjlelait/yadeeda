@@ -24,7 +24,7 @@ const Songs = () => {
                     <img src={image} alt={title} className="w-32 h-32 object-cover mb-2 rounded shadow-lg" />
                     <h3 className="text-md text-gray-600 mb-6">{copyright}</h3>
                     {songs.map((song) => (
-                        <Link to={`/song/${song.id}`} key={song.id} className="text-base hover:text-ydBlue underline mb-3">
+                        <Link to={`/song/${song.id}`} key={song.id} className="text-base hover:text-ydBlue underline mb-3" translate="no">
                         {song.titleF || song.titleE}
                         </Link>
                     ))}
