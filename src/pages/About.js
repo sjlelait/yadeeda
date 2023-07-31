@@ -4,7 +4,7 @@ import PurchaseButtons from '../components/PurchaseButtons';
 
 const About = (props) => {
     return (
-        <div>
+        <div translate="no">
             <h1 className="bg-white rounded-lg shadow-lg p-2 mt-16 md:inline-block md:p-4 md:mt-10 text-2xl lg:text-3xl font-bold font-homeP underline text-ydPurple">About Yadeeda</h1>
             <div className="flex flex-col md:flex-row">
                 <div className="p-4 mt-4 md:m-4 md:ml-0 rounded-lg shadow-lg text-center bg-white md:w-1/2 font-homeP">

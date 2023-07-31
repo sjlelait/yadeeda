@@ -11,14 +11,11 @@ const NavButtons = (props) =>  {
         navigate(-1);
     };
 
-    const showGoBackButton =
-        location.pathname === '/videos' ||
-        location.pathname === '/songs' ||
-        location.pathname === '/espadrilles' ||
+    const showGoBackButton = location.pathname !== '/';
         /^\/song\/\d+$/.test(location.pathname);
 
     return (
-        <div className="absolute top-18 left-0 mt-5 ml-4 p-2 bg-ydBG rounded-lg inline-block z-0">          
+        <div className="absolute top-18 left-0 mt-5 ml-4 p-2 md:ml-8 inline-block">          
             {showGoBackButton && (
                 <button
                 onClick={goBack}
@@ -28,12 +25,12 @@ const NavButtons = (props) =>  {
                 </button>
             )}
             <p className="hidden md:block">follow & subscribe!</p>
-            <div className="flex mt-2 md:ml-6 ">
+            <div className="flex md:ml-6">
                 <a
                     href="https://www.facebook.com/AlainLeLait.Yadeeda"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-500 mr-2"
+                    className="text-blue-500 mr-2 hover:shadow-lg"
                 >
                     <FaFacebook className="text-3xl md:text-4xl" />
                 </a>
@@ -43,7 +40,7 @@ const NavButtons = (props) =>  {
                     rel="noopener noreferrer"
                     className="text-red-500"
                 >
-                    <FaYoutube className="text-3xl md:text-4xl" />
+                    <FaYoutube className="text-3xl md:text-4xl hover:shadow-lg" />
                 </a>
             </div>
         </div>
