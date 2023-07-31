@@ -19,6 +19,7 @@ module.exports = {
         textOrange: '#E67802',
         textPurple: '#5416AB',
         ydBG: '#F7F8F8',
+        ydForm: '#e6f2f1',
 
       }
     },
