@@ -46,27 +46,27 @@ const Home = (props) => {
     
     const cardData = [
         {
-          title: 'Video of the Day',
-          image: null,
-          description: 'Click below to visit our YouTube Channel for more!',
-          link: 'https://www.youtube.com/@tialela99',
-          video: selectedVideo,
-          bgColor: 'bg-ydRed',
+            title: 'Video of the Day',
+            image: null,
+            description: 'Click below to visit our YouTube Channel for more!',
+            link: 'https://www.youtube.com/@tialela99',
+            video: selectedVideo,
+            bgColor: 'bg-ydRed',
         },
         {
-          title: null,
-          image: SesameStreet,
-          description:
-            "Yadeeda is on Sesame Street! Alain Le Lait's popular song 'Sit Down, Stand Up' can now be heard on episode #4135 (The Bookaneers), the French version 'Assis, Debout' is in episode #4151 (Slimey competes for the Worm Cup).",
-          link: 'https://muppet.fandom.com/wiki/Episode_4135',
-          bgColor: 'bg-ydYellow',
+            title: null,
+            image: SesameStreet,
+            description:
+                "Yadeeda is on Sesame Street! Alain Le Lait's popular song 'Sit Down, Stand Up' can now be heard on episode #4135 (The Bookaneers), the French version 'Assis, Debout' is in episode #4151 (Slimey competes for the Worm Cup).",
+            link: 'https://muppet.fandom.com/wiki/Episode_4135',
+            bgColor: 'bg-ydYellow',
         },
         {
-          title: 'All Song Lyrics Here',
-          image: Kids,
-          description: 'Lyrics in French and English, Makes learning fun!',
-          link: '/songs',
-          bgColor: 'bg-ydGreen',
+            title: 'All Song Lyrics Below',
+            image: Kids,
+            description: 'Lyrics in French and English, Makes learning fun!',
+            link: '/songs',
+            bgColor: 'bg-ydGreen',
         },
     ];
     
@@ -87,6 +87,7 @@ const Home = (props) => {
                             link={card.link}
                             video={card.video}
                             bgColor={card.bgColor}
+                            
                         />
                     ))}
                 </div>
