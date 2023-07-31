@@ -2,8 +2,8 @@ export const songs = [
     {
         id: 1,
         image: require('./assets/ParapluieCover.jpg'),
-        titleE: `Ah, Les Légumes`,
-        titleF: 'Ah, The Vegetables',
+        titleE: 'Ah, The Vegetables',
+        titleF: `Ah, Les Légumes`,
         album: 'Parapluie',
         french: `Les haricots verts
         Les artichaux, les pommes de terre

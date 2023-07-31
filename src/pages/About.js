@@ -10,7 +10,7 @@ const About = (props) => {
                 <div className="p-4 mt-4 md:m-4 md:ml-0 rounded-lg shadow-lg text-center bg-white md:w-1/2 font-homeP">
                     <div className="flex flex-col items-center justify-center">
                         <img src={Alain} alt="Alain Le Lait" className="h-52 w-auto rounded-lg shadow-lg m-4" />
-                        <p className="mb-2">Alain Le Lait, a native French speaker, started Yadeeda (originally Pollyglot) in 1990 to help children learn the French Language.</p>
+                        <p className="mb-2">Alain Le Lait, a native French speaker, started Yadeeda (originally Polyglot) in 1990 to help children learn the French Language.</p>
                         <p className="mb-2">The first release was "Far Away Across the Ocean" (long out of print, and only available on casette, consider yourself lucky if you have a copy), followed by "Soyons Amis" in 1999, "Seamos Amigos" (Spanish) in 2002, "C'est Si Bon" in 2002, "It's So Good" in 2003, "Parapluie" in 2008, "Zoey and the Yok Yok Man" in 2009 and finally "Songs From Videos" in 2021.</p>
                         <p className="mb-2">In 2011, Alain started animating his songs and the videos can be found here on <a href="https://www.youtube.com/@tialela99" target="_blank" rel="noopener noreferrer" className="text-ydBlue underline text-lg hover:text-ydLightBlue">YouTube</a>.</p>
                     </div>
