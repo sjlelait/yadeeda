@@ -20,7 +20,7 @@ const Songs = () => {
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-y-8 lg:grid-cols-3">
             {Object.entries(albums).map(([album, { image, copyright, title, songs }], index) => (
                 <div key={index} className="flex flex-col items-center mb-8 overflow-hidden border rounded-lg shadow-lg m-4">
-                    <h1 className="text-2xl font-semibold mb-2 mt-2">{title}</h1>
+                    <h1 className="text-2xl font-semibold mb-2 mt-2" translate="no">{title}</h1>
                     <img src={image} alt={title} className="w-32 h-32 object-cover mb-2 rounded shadow-lg" />
                     <h3 className="text-md text-gray-600 mb-6">{copyright}</h3>
                     {songs.map((song) => (
