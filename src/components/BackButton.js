@@ -17,7 +17,7 @@ const BackButton = (props) => {
             {showGoBackButton && (
                 <button
                 onClick={goBack}
-                className="bg-ydBlue hover:bg-ydLightBlue hover:text-black text-white font-bold py-2 px-4 rounded shadow-lg text-sm md:text-md"
+                className="bg-ydBlue hover:bg-ydLightBlue hover:text-black text-white font-bold py-2 px-4 rounded white-shadow text-sm md:text-md"
                 >
                 Back
                 </button>
