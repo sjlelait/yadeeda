@@ -1,6 +1,7 @@
 import React from 'react';
 import Alain from '../assets/Alain.png';
 import PurchaseButtons from '../components/PurchaseButtons';
+import BackButton from '../components/BackButton';
 
 const About = (props) => {
     return (
@@ -33,6 +34,9 @@ const About = (props) => {
             </div>
             <div className="mt-auto">
                 <PurchaseButtons />
+            </div>
+            <div className="">
+                <BackButton />
             </div>
         </div>
     )

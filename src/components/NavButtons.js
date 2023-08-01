@@ -1,29 +1,10 @@
 import React from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
 import { FaFacebook, FaYoutube } from 'react-icons/fa';
 
 
-const NavButtons = (props) =>  {
-    const navigate = useNavigate();
-    const location = useLocation();
-
-    const goBack = () => {
-        navigate(-1);
-    };
-
-    const showGoBackButton = location.pathname !== '/';
-        /^\/song\/\d+$/.test(location.pathname);
-
+const NavButtons = (props) =>  {  
     return (
-        <div className="absolute top-18 left-0 mt-5 ml-4 p-2 md:ml-8 inline-block">          
-            {showGoBackButton && (
-                <button
-                onClick={goBack}
-                className="bg-ydBlue hover:bg-ydLightBlue text-white font-bold py-2 px-4 rounded text-sm md:text-md"
-                >
-                Back
-                </button>
-            )}
+        <div className="absolute top-18 left-0 mt-5 ml-4 p-2 md:ml-8 inline-block">
             <p className="hidden md:block">follow & subscribe!</p>
             <div className="flex md:ml-6">
                 <a
