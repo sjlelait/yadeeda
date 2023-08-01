@@ -35,9 +35,9 @@ const About = (props) => {
             <div className="mt-auto">
                 <PurchaseButtons />
             </div>
-            <div className="">
+            <>
                 <BackButton />
-            </div>
+            </>
         </div>
     )
 }
