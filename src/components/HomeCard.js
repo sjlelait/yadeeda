@@ -14,7 +14,7 @@ const HomeCard = ({ title, image, description, link, video, bgColor }) => {
             )}
             {description && (
               <>
-                {title === 'All Song Lyrics Here' ? (
+                {title === 'All Song Lyrics Below' ? (
                   <ul className="list-disc list-inside leading-loose text-left mt-6 mb-4 ml-3">
                     {description.split(',').map((item, index) => (
                       <li key={index}>{item.trim()}</li>
