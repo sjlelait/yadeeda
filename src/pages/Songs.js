@@ -17,7 +17,7 @@ const Songs = () => {
     return (
         <>
             <div className="content bg-white rounded-lg shadow-lg m-4 md:m-20 md:mb-4">
-                <h1 className="text-2xl mb-2 mt-24 text-2xl md:mt-2 pt-6 md:text-3xl font-bold font-homeP underline text-ydPurple">Yadeeda Albums</h1>
+                <h1 className="text-2xl mb-2 mt-24 text-2xl md:mt-2 pt-6 md:text-3xl font-bold font-homeP text-ydPurple">Yadeeda Albums</h1>
                 <p className="text-lg mb-8 mt-4 pr-2 pl-2">* Click on each song to see the lyrics!</p>
                 <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-y-8 lg:grid-cols-3">
                 {Object.entries(albums).map(([album, { image, copyright, title, songs }], index) => (

@@ -41,7 +41,7 @@ function Form (props) {
     return (
         <div className="flex justify-center items-center mt-24 md:mt-32">
             <div className="content bg-white rounded-lg shadow-lg p-4 md:w-3/4 lg:w-1/2">
-                <h3 className="text-xl m-6 lg:text-3xl text-ydPurple text-center">Contact Yadeeda</h3>
+                <h3 className="text-xl m-6 lg:text-3xl text-ydPurple text-center font-homeP font-bold">Contact Yadeeda</h3>
                 <form name="contact" data-netlify="true" method="POST" onSubmit={handleSubmit}>
                     <div className="form-container p-2">
                         <input type="hidden" name="form-name" value="contact" />

@@ -5,7 +5,7 @@ const Reviews = (props) => {
     return (
         <>
             <div className="text-left mt-16 font-homeP m-6 md:m-24 md:mb-4 shadow-lg rounded-lg bg-white p-4">
-                <div className="text-2xl mt-6 lg:text-3xl font-bold text-ydPurple underline text-center">Top Reviews</div>
+                <div className="text-2xl mt-6 lg:text-3xl font-bold text-ydPurple text-center">Top Reviews</div>
                 <h1 className="mt-6 text-lg lg:text-2xl font-bold">Parent Feedback:</h1>
                 <p className="m-4 text-textGreen">
                     "My children loved your CDs. 
