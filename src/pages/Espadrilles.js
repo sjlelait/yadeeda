@@ -8,7 +8,7 @@ import BackButton from '../components/BackButton';
 const Espadrilles = () => {
     return (
         <>
-            <div className="min-h-screen bg-white rounded shadow-lg p-4 m-2 mt-20 md:mt-20 md:p-6 md:m-20 md:mb-4" translate="no">
+            <div className="min-h-screen bg-white rounded shadow-lg p-4 m-2 mt-28 md:mt-32 md:p-6 md:m-20 md:mb-4" translate="no">
                 <div className="items-center justify-center">
                     <h1 className="text-2xl mt-20 mb-8 mt-4 lg:text-3xl font-bold font-homeP text-ydPurple">
                         Music for Grown Ups

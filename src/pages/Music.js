@@ -9,7 +9,7 @@ import BackButton from '../components/BackButton';
 const Music = (props) => {
     return (
         <>
-            <div className="content bg-white rounded-lg shadow-lg md:m-30 md:mr-26 md:ml-26">
+            <div className="content bg-white rounded-lg shadow-lg mt-28 md:mt-32 md:m-30 md:mr-26 md:ml-26">
                 <div className="text-2xl md:text-3xl font-bold font-homeP text-ydPurple">
                     <h1 className="mt-20 md:mt-24 pt-6">Music & Videos by</h1>
                     <p className="mt-2 mb-8 md:mb-10">Alain Le Lait</p>
