@@ -3727,7 +3727,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/BTJYPpAIZXo',
         regularLink: 'https://www.youtube.com/watch?v=BTJYPpAIZXo',
         category: 'Instrumental',
-        playlists: ['French', 'English'],
+        playlists: 'English Songs',
         copyright: '© 2014 Music & animation by Alain Le Lait',
     },
     {
