@@ -562,7 +562,7 @@ export const songs = [
         titleE: 'The Giraffe and the Hippopotamus',
         titleF: `La Girafe et L’hippopotame`,
         album: `C'est Si Bon`,
-        french: `Elle a un trés long cou
+        french: `Elle a un très long cou
         Elle a des gros genoux
         Elle a des taches partout
         Elle n’aime pas les hiboux, ouh
@@ -3556,7 +3556,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/kUs7m4KSjmY',
         regularLink: 'https://www.youtube.com/watch?v=kUs7m4KSjmY',
         category: 'French',
-        playlists: ['Verbs & Prepositions','Adjectifs Posessifs'],
+        playlists: ['Verbs & Prepositions', 'Adjectifs Posessifs'],
         copyright: '© 2018 Music & animation by Alain Le Lait',
     },
     {
@@ -3628,7 +3628,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/npniUd2M_vI',
         regularLink: 'https://www.youtube.com/watch?v=npniUd2M_vI',
         category: 'French',
-        playlists: ['Verbs & Prepositions','Vocab'],
+        playlists: ['Verbs & Prepositions', 'Vocab'],
         copyright: '© 2017 Music & animation by Alain Le Lait',
     },
     {
@@ -3664,7 +3664,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/o10yePAGNJk',
         regularLink: 'https://www.youtube.com/watch?v=o10yePAGNJk',
         category: 'Zoey',
-        playlists: ['Zoey & the Yok Yok Man','English Songs'],
+        playlists: ['Zoey & the Yok Yok Man', 'English Songs'],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
     {
@@ -3673,7 +3673,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/YrSgvJm79Yc',
         regularLink: 'https://www.youtube.com/watch?v=YrSgvJm79Yc',
         category: 'Zoey',
-        playlists: ['Zoey & the Yok Yok Man','English Songs'],
+        playlists: ['Zoey & the Yok Yok Man', 'English Songs'],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
     {
@@ -3682,7 +3682,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/M2BttB7Z2pc',
         regularLink: 'https://www.youtube.com/watch?v=M2BttB7Z2pc',
         category: 'Zoey',
-        playlists: ['Zoey & the Yok Yok Man','English Songs'],
+        playlists: ['Zoey & the Yok Yok Man', 'English Songs'],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
     {
@@ -3736,7 +3736,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/pc7fnFdWNkk',
         regularLink: 'https://www.youtube.com/watch?v=pc7fnFdWNkk',
         category: 'French',
-        playlists: ['Verbs & Prepositions','Adjectifs Posessifs'],
+        playlists: ['Verbs & Prepositions', 'Adjectifs Posessifs'],
         copyright: '© 2014 Music & animation by Alain Le Lait',
     },
     {
@@ -3808,7 +3808,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/7_u2SigckNQ',
         regularLink: 'https://www.youtube.com/watch?v=7_u2SigckNQ',
         category: 'French',
-        playlists: ['Days & Months','Vocab', '10 Most Popular Videos'],
+        playlists: ['Days & Months', 'Vocab', '10 Most Popular Videos'],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3826,7 +3826,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/fWxVnrgu91s',
         regularLink: 'https://www.youtube.com/watch?v=fWxVnrgu91s',
         category: 'English',
-        playlists: ['Learning Numbers' ,'English Songs'],
+        playlists: ['Learning Numbers', 'English Songs'],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3835,7 +3835,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/T8Qg1--N9w8',
         regularLink: 'https://www.youtube.com/watch?v=T8Qg1--N9w8',
         category: 'English',
-        playlists: ['Colors','English Songs'],
+        playlists: ['Colors', 'English Songs'],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3844,7 +3844,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/IaaSprb0IXk',
         regularLink: 'https://www.youtube.com/watch?v=IaaSprb0IXk',
         category: 'French',
-        playlists: ['Colors','Vocab'],
+        playlists: ['Colors', 'Vocab'],
         copyright: '© 2012 Music & animation by Alain Le Lait',
     },
     {
@@ -3889,7 +3889,7 @@ export const videos = [
         link: 'https://www.youtube.com/embed/Lpwf5N0rfVE',
         regularLink: 'https://www.youtube.com/watch?v=Lpwf5N0rfVE',
         category: 'French',
-        playlists: ['Days & Months','Vocab', '10 Most Popular Videos'],
+        playlists: ['Days & Months', 'Vocab', '10 Most Popular Videos'],
         copyright: '© 2013 Music & animation by Alain Le Lait',
     },
     {
@@ -4004,7 +4004,7 @@ export const adult = [
         link: 'https://www.youtube.com/embed/biUCZ1Avbfk',
         regularLink: 'https://www.youtube.com/watch?v=biUCZ1Avbfk',
         category: 'Adult',
-        playlists: ['Alain Live','Adult'],
+        playlists: ['Alain Live', 'Adult'],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -4013,7 +4013,7 @@ export const adult = [
         link: 'https://www.youtube.com/embed/g8rpWVI_8Yc',
         regularLink: 'https://www.youtube.com/watch?v=g8rpWVI_8Yc',
         category: 'Adult',
-        playlists: ['Alain Live','Adult'],
+        playlists: ['Alain Live', 'Adult'],
         copyright: '© 2011 Music & animation by Alain Le Lait',
     },
     {
@@ -4022,7 +4022,7 @@ export const adult = [
         link: 'https://www.youtube.com/embed/--rm_9vWTGs',
         regularLink: 'https://www.youtube.com/watch?v=--rm_9vWTGs',
         category: 'Adult',
-        playlists: ['Alain Live','Adult'],
+        playlists: ['Alain Live', 'Adult'],
         copyright: '© 2010 Music & animation by Alain Le Lait',
     },
     {
@@ -4031,7 +4031,7 @@ export const adult = [
         link: 'https://www.youtube.com/embed/ZUYX0Hj0N-4',
         regularLink: 'https://www.youtube.com/watch?v=ZUYX0Hj0N-4',
         category: 'Adult',
-        playlists: ['Espadrilles', 'Alain Live','Adult'],
+        playlists: ['Espadrilles', 'Alain Live', 'Adult'],
         copyright: '© 2010 Music & animation by Alain Le Lait',
     },
     {
@@ -4040,7 +4040,7 @@ export const adult = [
         link: 'https://www.youtube.com/embed/4xIVRSMTP2k',
         regularLink: 'https://www.youtube.com/watch?v=4xIVRSMTP2k',
         category: 'Adult',
-        playlists: ['Espadrilles', 'Alain Live','Adult'],
+        playlists: ['Espadrilles', 'Alain Live', 'Adult'],
         copyright: '© 2009 Music & animation by Alain Le Lait',
     },
     {
