@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Form (props) {
+function Form(props) {
 
     const getNewState = () => ({
         name: '',
@@ -10,15 +10,19 @@ function Form (props) {
 
     const [formState, setFormState] = useState(getNewState());
 
-    const encode = ({ name, email, message }) => { 
+    const encode = ({ name, email, message }) => {
         return `form-name=contact&name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}&message=${encodeURIComponent(message)}`;
-    }; 
+    };
 
     const handleChange = (event) => {
         setFormState({
             ...formState,
             [event.target.name]: event.target.value
         });
+    };
+
+    const isFormFilled = () => {
+        return formState.name && formState.email && formState.message;
     };
 
     const handleSubmit = async (event) => {
@@ -46,32 +50,32 @@ function Form (props) {
                     <div className="form-container p-2">
                         <input type="hidden" name="form-name" value="contact" />
                         <label htmlFor="name">Name:</label>
-                            <input 
-                                id="name"
-                                type="text"
-                                name="name"
-                                onChange={handleChange}
-                                value={name}
-                                className="form-control mb-2 bg-ydForm rounded-lg shadow-lg"
-                            />
+                        <input
+                            id="name"
+                            type="text"
+                            name="name"
+                            onChange={handleChange}
+                            value={name}
+                            className="form-control mb-2 bg-ydForm rounded-lg shadow-lg"
+                        />
                         <label htmlFor="email">Email:</label>
-                            <input
-                                id="email"
-                                type="text"
-                                name="email"
-                                onChange={handleChange}
-                                value={email}
-                                className="form-control mb-2 bg-ydForm rounded-lg shadow-lg"
-                            />
+                        <input
+                            id="email"
+                            type="text"
+                            name="email"
+                            onChange={handleChange}
+                            value={email}
+                            className="form-control mb-2 bg-ydForm rounded-lg shadow-lg"
+                        />
                         <label htmlFor="message">Message:</label>
-                            <textarea
-                                id="message"
-                                name="message"
-                                onChange={handleChange}
-                                value={message}
-                                className="form-control mb-2 bg-ydForm rounded-lg shadow-lg"
-                            ></textarea>
-                        <button type="submit" className="btn-light bg-ydBlue text-white rounded-lg shadow-lg hover:bg-ydLightBlue">
+                        <textarea
+                            id="message"
+                            name="message"
+                            onChange={handleChange}
+                            value={message}
+                            className="form-control mb-2 bg-ydForm rounded-lg shadow-lg"
+                        ></textarea>
+                        <button type="submit" disabled={!isFormFilled()} className={`btn-light text-white rounded-lg shadow-lg ${isFormFilled() ? 'hover:bg-ydLightBlue bg-ydBlue' : 'hover:bg-gray-500 bg-gray-500'}`}>
                             Send Message
                         </button>
                     </div>
